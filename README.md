@@ -24,6 +24,3 @@ Hey, I'm Anamta.<br><br>I'm a curious, slightly overthinking, always-learning ki
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=anamta-JINX&limit=5&theme=default&combine_all_yearly_contributions=true)
 
----
-[![](https://komarev.com/ghpvc/?username=anamta-JINX&icon=0&color=9)](https://visitcount.itsvg.in)
-
