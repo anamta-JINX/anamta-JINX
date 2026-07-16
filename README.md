@@ -27,4 +27,3 @@ Hey, I'm Anamta.<br><br>I'm a curious, slightly overthinking, always-learning ki
 ---
 [![](https://komarev.com/ghpvc/?username=anamta-JINX&icon=0&color=9)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->           tis is my github profile .. make it better .. add animations ... n teh snake animation on steak .... 
