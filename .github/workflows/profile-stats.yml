@@ -1,0 +1,79 @@
+name: Refresh maroon profile stats
+
+on:
+  schedule:
+    - cron: '27 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-stats.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+
+      - name: Generate GitHub stats
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          path: assets/stats.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=false&count_private=false&bg_color=190d14&title_color=e6a0b4&text_color=d8c7cf&icon_color=bc5876&border_color=57283b&border_radius=10
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: 'true'
+
+      - name: Generate language stats
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          path: assets/languages.svg
+          options: username=${{ github.repository_owner }}&layout=compact&bg_color=190d14&title_color=e6a0b4&text_color=d8c7cf&icon_color=bc5876&border_color=57283b&border_radius=10
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: 'true'
+
+      - name: Generate contribution streak
+        uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1
+        with:
+          path: assets/streak.svg
+          options: user=${{ github.repository_owner }}&background=190d14&border=57283b&stroke=57283b&ring=9c3655&fire=e6a0b4&currStreakNum=fff4f7&sideNums=fff4f7&currStreakLabel=e6a0b4&sideLabels=d8c7cf&dates=b491a0&border_radius=10
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate the cards
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree
+          for name in ('stats.svg', 'languages.svg', 'streak.svg'):
+              path = Path('assets') / name
+              root = ElementTree.parse(path).getroot()
+              assert root.tag == '{http://www.w3.org/2000/svg}svg', path
+              text = path.read_text().lower()
+              assert 'something went wrong' not in text, path
+              assert path.stat().st_size > 1000, path
+          PY
+
+      - name: Save refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/languages.svg assets/streak.svg
+          if git diff --cached --quiet; then
+            echo "Stats cards are already current."
+            exit 0
+          fi
+          git commit -m "chore: refresh maroon profile stats"
+          git pull --rebase origin main
+          git push origin HEAD:main
