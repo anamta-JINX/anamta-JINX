@@ -1,0 +1,61 @@
+name: Refresh maroon contribution snake
+
+on:
+  schedule:
+    # 06:17 in Pakistan (UTC+05:00).
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-snake.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+
+      - name: Generate the contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-snake.svg?color_snake=#801d3c&color_dots=#f4e9ed,#e9c5d0,#c57990,#9c3655,#60162f
+            assets/github-snake-dark.svg?palette=github-dark&color_snake=#efabbf&color_dots=#21101a,#43182b,#712840,#a34765,#d7819b
+
+      - name: Check both SVG files
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree
+          for name in ('github-snake.svg', 'github-snake-dark.svg'):
+              path = Path('assets') / name
+              root = ElementTree.parse(path).getroot()
+              assert root.tag == '{http://www.w3.org/2000/svg}svg', path
+              assert path.stat().st_size > 1000, path
+          PY
+
+      - name: Save refreshed animations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-snake.svg assets/github-snake-dark.svg
+          if git diff --cached --quiet; then
+            echo "Contribution animations are already current."
+            exit 0
+          fi
+          git commit -m "chore: refresh maroon contribution snake"
+          git pull --rebase origin main
+          git push origin HEAD:main
