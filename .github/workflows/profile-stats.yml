@@ -51,6 +51,19 @@ jobs:
           options: user=${{ github.repository_owner }}&background=190d14&border=57283b&stroke=57283b&ring=9c3655&fire=e6a0b4&currStreakNum=fff4f7&sideNums=fff4f7&currStreakLabel=e6a0b4&sideLabels=d8c7cf&dates=b491a0&border_radius=10
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Keep long labels separated from values
+        run: |
+          python3 - <<'PYCODE'
+          from pathlib import Path
+          import re
+          path = Path('assets/stats.svg')
+          svg = path.read_text()
+          pattern = r'(<text\s+class="stat\s+bold"\s+x=")[^"]+("\s+y="12\.5"\s+data-testid="(?:stars|commits|prs|issues|contribs)")'
+          svg, count = re.subn(pattern, lambda m: m[1] + '265' + m[2], svg)
+          assert count == 5, 'Stats renderer changed; keep the last valid cards.'
+          path.write_text(svg)
+          PYCODE
+
       - name: Validate the cards
         run: |
           python3 - <<'PY'
