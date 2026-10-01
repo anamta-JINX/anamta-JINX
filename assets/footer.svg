@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="112" viewBox="0 0 960 112" role="img" aria-label="Maroon wave footer">
+  <defs><linearGradient id="wine" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#761d39"/><stop offset="1" stop-color="#270e18"/></linearGradient><clipPath id="clip"><rect width="960" height="112" rx="10"/></clipPath></defs>
+  <style>.wave {animation:drift 11s ease-in-out infinite alternate}@keyframes drift{from{transform:translateX(-25px)}to{transform:translateX(25px)}}@media(prefers-reduced-motion:reduce){.wave{animation:none}}</style>
+  <g clip-path="url(#clip)">
+    <path class="wave" d="M-60 49C157 6 281 93 483 41S758 10 1020 38V120H-60Z" fill="#cc6d88" opacity=".25"/>
+    <path class="wave" d="M-60 71C167 10 300 109 510 57S786 37 1020 53V120H-60Z" fill="#9c3655" opacity=".7"/>
+    <path d="M-60 81C143 44 338 121 550 77S825 70 1020 76V120H-60Z" fill="url(#wine)"/>
+  </g>
+</svg>

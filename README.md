@@ -1,40 +1,108 @@
-# Anamta Gohar
+<!-- Profile artwork is stored in this repository; the original text is preserved. -->
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Anamta Gohar — Software Engineer | AI/ML Engineer | Full-Stack Developer" />
+  <img src="assets/typing.svg" width="760" alt="Software Engineer | AI/ML Engineer | Full-Stack Developer" />
+</p>
 
-**Software Engineer | AI/ML Engineer | Full-Stack Developer**
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## About Me:
-Hey, I'm Anamta.<br><br>I'm a curious, slightly overthinking, always-learning kind of person who can go from “I should probably rest” to “let me just try one more feature” at 3 AM.<br>I'm a Full-Stack, Frontend, and AI/ML Developer who enjoys building things, breaking them (accidentally), fixing them (eventually), and then convincing myself it was all part of the plan. I like turning ideas into real products, especially in AI, machine learning, LLMs, automation, and anything that feels even slightly futuristic.<br>I’m constantly exploring new technologies—not because I have to, but because my brain refuses to leave things alone once I find them interesting. I enjoy understanding how things work under the hood, even if it means falling into a 6-hour rabbit hole for one concept.<br>Outside of tech, I’m a chess player and basketball team captain—mostly as a way to test my patience and pretend I have control over chaos. I enjoy anything that involves creativity, strategy, or the occasional existential crisis mid-game.<br><br>---<br><br>▶ I’m currently working on improving my skills in AI/ML, full-stack systems, and frontend skills, more practical applications  <br>▶ I’m looking to collaborate on interesting ideas, AI tools, and anything that solves real-world problems  <br>▶ I’m looking for help with scaling ideas into production-ready systems and learning better architecture patterns  <br>▶ I’m currently learning advanced AI/ML concepts, LLM / RAG systems, flutter and better software design practices  <br>▶ Ask me about Full-Stack Development, AI/ML, LLMs, or why I still debug things at 3 AM  <br>▶ Fun fact: I can solve a Rubik’s cube in 20 secs, but I still sometimes can’t figure out why my code worked before I touched it  
 
+Hey, I'm Anamta.
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+I'm a curious, slightly overthinking, always-learning kind of person who can go from “I should probably rest” to “let me just try one more feature” at 3 AM.
+
+I'm a Full-Stack, Frontend, and AI/ML Developer who enjoys building things, breaking them (accidentally), fixing them (eventually), and then convincing myself it was all part of the plan. I like turning ideas into real products, especially in AI, machine learning, LLMs, automation, and anything that feels even slightly futuristic.
+
+I’m constantly exploring new technologies—not because I have to, but because my brain refuses to leave things alone once I find them interesting. I enjoy understanding how things work under the hood, even if it means falling into a 6-hour rabbit hole for one concept.
+
+Outside of tech, I’m a chess player and basketball team captain—mostly as a way to test my patience and pretend I have control over chaos. I enjoy anything that involves creativity, strategy, or the occasional existential crisis mid-game.
+
+▶ I’m currently working on improving my skills in AI/ML, full-stack systems, and frontend skills, more practical applications  
+
+▶ I’m looking to collaborate on interesting ideas, AI tools, and anything that solves real-world problems  
+
+▶ I’m looking for help with scaling ideas into production-ready systems and learning better architecture patterns  
+
+▶ I’m currently learning advanced AI/ML concepts, LLM / RAG systems, flutter and better software design practices  
+
+▶ Ask me about Full-Stack Development, AI/ML, LLMs, or why I still debug things at 3 AM  
+
+▶ Fun fact: I can solve a Rubik’s cube in 20 secs, but I still sometimes can’t figure out why my code worked before I touched it
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## 💻 Tech Stack:
+
+<p>
+  <img src="assets/badges/css3.svg" alt="CSS3" height="28" /> <img src="assets/badges/html5.svg" alt="HTML5" height="28" /> <img src="assets/badges/python.svg" alt="Python" height="28" /> <img src="assets/badges/php.svg" alt="PHP" height="28" /> <img src="assets/badges/javascript.svg" alt="JavaScript" height="28" /> <img src="assets/badges/typescript.svg" alt="TypeScript" height="28" /> <img src="assets/badges/google-cloud.svg" alt="Google Cloud" height="28" /> <img src="assets/badges/aws.svg" alt="AWS" height="28" /> <img src="assets/badges/azure.svg" alt="Azure" height="28" /> <img src="assets/badges/cloudflare.svg" alt="Cloudflare" height="28" /> <img src="assets/badges/netlify.svg" alt="Netlify" height="28" /> <img src="assets/badges/firebase.svg" alt="Firebase" height="28" /> <img src="assets/badges/angular-js.svg" alt="Angular.js" height="28" /> <img src="assets/badges/bootstrap.svg" alt="Bootstrap" height="28" /> <img src="assets/badges/django.svg" alt="Django" height="28" /> <img src="assets/badges/flutter.svg" alt="Flutter" height="28" /> <img src="assets/badges/express-js.svg" alt="Express.js" height="28" /> <img src="assets/badges/fastapi.svg" alt="FastAPI" height="28" /> <img src="assets/badges/flask.svg" alt="Flask" height="28" /> <img src="assets/badges/react.svg" alt="React" height="28" /> <img src="assets/badges/sass.svg" alt="SASS" height="28" /> <img src="assets/badges/tailwindcss.svg" alt="TailwindCSS" height="28" /> <img src="assets/badges/streamlit.svg" alt="Streamlit" height="28" /> <img src="assets/badges/vite.svg" alt="Vite" height="28" /> <img src="assets/badges/vue-js.svg" alt="Vue.js" height="28" /> <img src="assets/badges/firebase.svg" alt="Firebase" height="28" /> <img src="assets/badges/supabase.svg" alt="Supabase" height="28" /> <img src="assets/badges/figma.svg" alt="Figma" height="28" /> <img src="assets/badges/keras.svg" alt="Keras" height="28" /> <img src="assets/badges/matplotlib.svg" alt="Matplotlib" height="28" /> <img src="assets/badges/numpy.svg" alt="NumPy" height="28" /> <img src="assets/badges/pandas.svg" alt="Pandas" height="28" /> <img src="assets/badges/pytorch.svg" alt="PyTorch" height="28" /> <img src="assets/badges/scikit-learn.svg" alt="scikit-learn" height="28" /> <img src="assets/badges/tensorflow.svg" alt="TensorFlow" height="28" /> <img src="assets/badges/git.svg" alt="Git" height="28" /> <img src="assets/badges/github.svg" alt="GitHub" height="28" /> <img src="assets/badges/cisco.svg" alt="Cisco" height="28" /> <img src="assets/badges/docker.svg" alt="Docker" height="28" /> <img src="assets/badges/postman.svg" alt="Postman" height="28" /> <img src="assets/badges/firebase.svg" alt="Firebase" height="28" /> <img src="assets/badges/gitlab.svg" alt="GitLab" height="28" />
+</p>
+
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## Find Me Online
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7)](https://anamtasportfolio.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anamta_Gohar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://pk.linkedin.com/in/anamta-gohar)
-[![GitHub](https://img.shields.io/badge/GitHub-anamta--JINX-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anamta-JINX)
-[![Email](https://img.shields.io/badge/Email-anamta.gohar25%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anamta.gohar25@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-___anamtaaa-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/___anamtaaa)
-![Discord](https://img.shields.io/badge/Discord-__anamta-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+[![Portfolio](assets/social/portfolio.svg)](https://anamtasportfolio.netlify.app/)
+[![LinkedIn](assets/social/linkedin.svg)](https://pk.linkedin.com/in/anamta-gohar)
+[![GitHub](assets/social/github.svg)](https://github.com/anamta-JINX)
+[![Email](assets/social/email.svg)](mailto:anamta.gohar25@gmail.com)
+[![Instagram](assets/social/instagram.svg)](https://instagram.com/___anamtaaa)
+![Discord](assets/social/discord.svg)
 
 **Portfolio:** [anamtasportfolio.netlify.app](https://anamtasportfolio.netlify.app/)  
 **LinkedIn:** [linkedin.com/in/anamta-gohar](https://pk.linkedin.com/in/anamta-gohar)  
 **GitHub:** [github.com/anamta-JINX](https://github.com/anamta-JINX)
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=anamta-JINX&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-<br/>
-![](https://streak-stats.demolab.com/?user=anamta-JINX&theme=dark&hide_border=false)<br/>
-<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=anamta-JINX&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<img src="assets/divider.svg" width="100%" alt="" />
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=anamta-JINX&theme=default&no-frame=false&no-bg=true&margin-w=4)
+## 📊 GitHub Stats:
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<p align="center">
+  <img height="175" src="assets/stats.svg" alt="Anamta's GitHub stats" />
+  <img height="175" src="assets/languages.svg" alt="Anamta's most used languages" />
+</p>
+<p align="center">
+  <img width="600" src="assets/streak.svg" alt="Anamta's GitHub contribution streak" />
+</p>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=anamta-JINX&limit=5&theme=default&combine_all_yearly_contributions=true)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
+    <img width="100%" src="assets/github-snake.svg" alt="Animated snake following Anamta's GitHub contributions" />
+  </picture>
+</p>
 
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<details>
+<summary><b>🏆 GitHub Trophies</b></summary>
+<br />
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=anamta-JINX&amp;theme=dark_lover&amp;no-frame=true&amp;no-bg=true&amp;margin-w=8" alt="Anamta's GitHub trophies" />
+</p>
+
+</details>
+
+<details>
+<summary><b>✍️ Random Dev Quote</b></summary>
+<br />
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=radical" alt="Random developer quote" />
+</p>
+
+</details>
+
+<details>
+<summary><b>🔝 Top Contributed Repo</b></summary>
+<br />
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=anamta-JINX&amp;limit=5&amp;theme=dark&amp;combine_all_yearly_contributions=true&amp;bg_color=190d14&amp;title_color=e6a0b4&amp;text_color=d8c7cf&amp;icon_color=bc5876&amp;border_color=57283b&amp;border_radius=10" alt="Anamta's top contributed repositories" />
+</p>
+
+</details>
+
+<img src="assets/footer.svg" width="100%" alt="" />

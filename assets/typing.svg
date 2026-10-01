@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="52" viewBox="0 0 760 52" role="img" aria-labelledby="title">
+  <title id="title">Software Engineer | AI/ML Engineer | Full-Stack Developer</title>
+  <defs><clipPath id="clip1"><rect class="reveal1" x="0" y="0" width="214" height="40"/></clipPath><clipPath id="clip2"><rect class="reveal2" x="0" y="0" width="177" height="40"/></clipPath><clipPath id="clip3"><rect class="reveal3" x="0" y="0" width="252" height="40"/></clipPath></defs>
+  <style>
+    text {font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace;font-size:21px;font-weight:500;fill:#9c3655}
+    .caret {fill:#9c3655}
+    .line1 {animation:one 36s step-end infinite}.line2 {opacity:0;animation:two 36s step-end infinite}.line3 {opacity:0;animation:three 36s step-end infinite}
+    @keyframes blink {0%,100% {opacity:1}50% {opacity:0}}
+    @keyframes one {0% {opacity:1}33.333%,100% {opacity:0}}
+    @keyframes two {0% {opacity:0}33.333% {opacity:1}66.666%,100% {opacity:0}}
+    @keyframes three {0% {opacity:0}66.666% {opacity:1}100% {opacity:0}}
+    .reveal1 {animation:reveal1 12s steps(17,end) infinite}
+    .caret1 {animation:cursor1 12s steps(17,end) infinite,blink .8s step-end infinite}
+    @keyframes reveal1 {0%,8% {width:0} 35%,80% {width:214px} 96%,100% {width:0}}
+    @keyframes cursor1 {0%,8% {transform:translateX(0)} 35%,80% {transform:translateX(218px)} 96%,100% {transform:translateX(0)}}.reveal2 {animation:reveal2 12s steps(14,end) infinite}
+    .caret2 {animation:cursor2 12s steps(14,end) infinite,blink .8s step-end infinite}
+    @keyframes reveal2 {0%,8% {width:0} 35%,80% {width:177px} 96%,100% {width:0}}
+    @keyframes cursor2 {0%,8% {transform:translateX(0)} 35%,80% {transform:translateX(181px)} 96%,100% {transform:translateX(0)}}.reveal3 {animation:reveal3 12s steps(20,end) infinite}
+    .caret3 {animation:cursor3 12s steps(20,end) infinite,blink .8s step-end infinite}
+    @keyframes reveal3 {0%,8% {width:0} 35%,80% {width:252px} 96%,100% {width:0}}
+    @keyframes cursor3 {0%,8% {transform:translateX(0)} 35%,80% {transform:translateX(256px)} 96%,100% {transform:translateX(0)}}
+    @media (prefers-color-scheme:dark) {text,.caret {fill:#e79bb0}}
+    @media (prefers-reduced-motion:reduce) {* {animation:none!important}.line1 {opacity:1}.line2,.line3,.caret {opacity:0}.reveal1 {width:214px}}
+  </style>
+  <g class="line line1" transform="translate(273.0 6)"><g clip-path="url(#clip1)"><text y="26" textLength="214" lengthAdjust="spacingAndGlyphs">Software Engineer</text></g><rect class="caret caret1" x="0" y="5" width="2" height="25"/></g><g class="line line2" transform="translate(291.5 6)"><g clip-path="url(#clip2)"><text y="26" textLength="177" lengthAdjust="spacingAndGlyphs">AI/ML Engineer</text></g><rect class="caret caret2" x="0" y="5" width="2" height="25"/></g><g class="line line3" transform="translate(254.0 6)"><g clip-path="url(#clip3)"><text y="26" textLength="252" lengthAdjust="spacingAndGlyphs">Full-Stack Developer</text></g><rect class="caret caret3" x="0" y="5" width="2" height="25"/></g>
+</svg>
