@@ -20,7 +20,7 @@
   <a href="https://instagram.com/___anamtaaa" title="Instagram"><img src="https://cdn.simpleicons.org/instagram/E4405F" width="30" height="30" alt="Instagram" /></a>
 </p>
 
-<br />
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## About Me
 
@@ -46,9 +46,29 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
 
 ▶ Fun fact: I can solve a Rubik’s cube in 20 secs, but I still sometimes can’t figure out why my code worked before I touched it
 
-<br />
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## Tech Stack
+
+<p align="center"><sub><b>AI / ML DOMAINS</b></sub></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-6F1730?style=flat-square&labelColor=16080D" alt="Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-7F1C36?style=flat-square&labelColor=16080D" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/Deep%20Learning-8D2240?style=flat-square&labelColor=16080D" alt="Deep Learning" />
+  <img src="https://img.shields.io/badge/LLMs-A62E4D?style=flat-square&labelColor=16080D" alt="LLMs" />
+  <img src="https://img.shields.io/badge/RAG-B53B59?style=flat-square&labelColor=16080D" alt="RAG" />
+  <img src="https://img.shields.io/badge/Generative%20AI-94304A?style=flat-square&labelColor=16080D" alt="Generative AI" />
+  <img src="https://img.shields.io/badge/Transformers-7A1830?style=flat-square&labelColor=16080D" alt="Transformers" />
+  <img src="https://img.shields.io/badge/Embeddings-8D2943?style=flat-square&labelColor=16080D" alt="Embeddings" />
+  <img src="https://img.shields.io/badge/AI%20Agents-A73855?style=flat-square&labelColor=16080D" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/NLP-74162D?style=flat-square&labelColor=16080D" alt="NLP" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-8A203A?style=flat-square&labelColor=16080D" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/CNNs-A12D4A?style=flat-square&labelColor=16080D" alt="CNNs" />
+  <img src="https://img.shields.io/badge/DNNs-7F1D35?style=flat-square&labelColor=16080D" alt="DNNs" />
+  <img src="https://img.shields.io/badge/OCR-96304B?style=flat-square&labelColor=16080D" alt="OCR" />
+  <img src="https://img.shields.io/badge/Vector%20Search-B23B58?style=flat-square&labelColor=16080D" alt="Vector Search" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-792037?style=flat-square&labelColor=16080D" alt="Prompt Engineering" />
+</p>
 
 <p align="center"><sub><b>AI / ML &amp; DATA</b></sub></p>
 <p align="center">
@@ -66,7 +86,20 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width="38" height="38" title="Pandas" alt="Pandas" />
   &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" width="38" height="38" title="OpenCV" alt="OpenCV" />
+  &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" width="38" height="38" title="Matplotlib" alt="Matplotlib" />
+</p>
+
+<p align="center"><sub><b>MERN STACK</b></sub></p>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="40" height="40" title="MongoDB" alt="MongoDB" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="40" height="40" title="Express.js" alt="Express.js" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="40" height="40" title="React" alt="React" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="40" height="40" title="Node.js" alt="Node.js" />
 </p>
 
 <p align="center"><sub><b>SOFTWARE DEVELOPMENT</b></sub></p>
@@ -102,6 +135,22 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="38" height="38" title="Flask" alt="Flask" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="38" height="38" title="Express.js" alt="Express.js" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="38" height="38" title="Node.js" alt="Node.js" />
+</p>
+
+<p align="center"><sub><b>DATABASES / RETRIEVAL</b></sub></p>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="38" height="38" title="MongoDB" alt="MongoDB" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="38" height="38" title="PostgreSQL" alt="PostgreSQL" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="38" height="38" title="MySQL" alt="MySQL" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="38" height="38" title="Redis" alt="Redis" />
+</p>
+<p align="center">
+  <code>Vector Databases</code> · <code>Chroma</code> · <code>Pinecone</code> · <code>Weaviate</code> · <code>pgvector</code>
 </p>
 
 <p align="center"><sub><b>CLOUD &amp; TOOLS</b></sub></p>
@@ -133,7 +182,7 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="38" height="38" title="Figma" alt="Figma" />
 </p>
 
-<br />
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## GitHub Activity
 
@@ -153,6 +202,8 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
     <img width="100%" src="assets/github-snake.svg" alt="Animated snake following Anamta's GitHub contributions" />
   </picture>
 </p>
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt="" />
