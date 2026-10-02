@@ -1,5 +1,4 @@
-
-      <svg
+<svg
         width="467"
         height="195"
         viewBox="0 0 467 195"
@@ -13,7 +12,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #E8B7A3;
+            fill: #DFADB9;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +21,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #DBC9BF;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #CEBFC5;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +32,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #DBC9BF;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #CEBFC5;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +45,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #B96751;
+      fill: #A3425A;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #E8B7A3;
+      stroke: #DFADB9;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #E8B7A3;
+      stroke: #DFADB9;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -116,9 +115,9 @@
           y="0.5"
           rx="10"
           height="99%"
-          stroke="#68302A"
+          stroke="#542032"
           width="466"
-          fill="#1C0808"
+          fill="#13060A"
           stroke-opacity="1"
         />
 
@@ -236,4 +235,3 @@
   
         </g>
       </svg>
-    

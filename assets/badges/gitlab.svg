@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="88" height="32" viewBox="0 0 88 32" role="img" aria-label="GitLab">
-      <title>GitLab</title>
-      <rect x=".5" y=".5" width="87" height="31" rx="6" fill="#240A0A" stroke="#69302B"/>
-      <g transform="translate(11 8) scale(.666667)" fill="#DCAD98"><path d="m23.6004 9.5927-.0337-.0862L20.3.9814a.851.851 0 0 0-.3362-.405.8748.8748 0 0 0-.9997.0539.8748.8748 0 0 0-.29.4399l-2.2055 6.748H7.5375l-2.2057-6.748a.8573.8573 0 0 0-.29-.4412.8748.8748 0 0 0-.9997-.0537.8585.8585 0 0 0-.3362.4049L.4332 9.5015l-.0325.0862a6.0657 6.0657 0 0 0 2.0119 7.0105l.0113.0087.03.0213 4.976 3.7264 2.462 1.8633 1.4995 1.1321a1.0085 1.0085 0 0 0 1.2197 0l1.4995-1.1321 2.4619-1.8633 5.006-3.7489.0125-.01a6.0682 6.0682 0 0 0 2.0094-7.003z"/></g>
-      <text x="35" y="21" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#F4E8E1">GitLab</text>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="84" viewBox="0 0 74 84" role="img" aria-label="GitLab">
+<title>GitLab</title>
+<defs><linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#29060F"/><stop offset="1" stop-color="#160309"/></linearGradient></defs>
+<rect x="7.5" y="1.5" width="59" height="59" rx="15" fill="url(#tile)" stroke="#602333" stroke-width=".75"/>
+<g transform="translate(21 15) scale(1.333333)" fill="#EAD7DC"><path d="m23.6004 9.5927-.0337-.0862L20.3.9814a.851.851 0 0 0-.3362-.405.8748.8748 0 0 0-.9997.0539.8748.8748 0 0 0-.29.4399l-2.2055 6.748H7.5375l-2.2057-6.748a.8573.8573 0 0 0-.29-.4412.8748.8748 0 0 0-.9997-.0537.8585.8585 0 0 0-.3362.4049L.4332 9.5015l-.0325.0862a6.0657 6.0657 0 0 0 2.0119 7.0105l.0113.0087.03.0213 4.976 3.7264 2.462 1.8633 1.4995 1.1321a1.0085 1.0085 0 0 0 1.2197 0l1.4995-1.1321 2.4619-1.8633 5.006-3.7489.0125-.01a6.0682 6.0682 0 0 0 2.0094-7.003z"/></g>
+<text x="37" y="77" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9.5" fill="#A26C7A">GitLab</text>
+<style>@media(prefers-color-scheme:dark){text{fill:#C49BA6}}</style>
+</svg>

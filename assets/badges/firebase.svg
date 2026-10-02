@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="99" height="32" viewBox="0 0 99 32" role="img" aria-label="Firebase">
-      <title>Firebase</title>
-      <rect x=".5" y=".5" width="98" height="31" rx="6" fill="#240A0A" stroke="#69302B"/>
-      <g transform="translate(11 8) scale(.666667)" fill="#DCAD98"><path d="M3.89 15.672L6.255.461A.542.542 0 017.27.288l2.543 4.771zm16.794 3.692l-2.25-14a.54.54 0 00-.919-.295L3.316 19.365l7.856 4.427a1.621 1.621 0 001.588 0zM14.3 7.147l-1.82-3.482a.542.542 0 00-.96 0L3.53 17.984z"/></g>
-      <text x="35" y="21" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#F4E8E1">Firebase</text>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="84" viewBox="0 0 74 84" role="img" aria-label="Firebase">
+<title>Firebase</title>
+<defs><linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#29060F"/><stop offset="1" stop-color="#160309"/></linearGradient></defs>
+<rect x="7.5" y="1.5" width="59" height="59" rx="15" fill="url(#tile)" stroke="#602333" stroke-width=".75"/>
+<g transform="translate(21 15) scale(1.333333)" fill="#EAD7DC"><path d="M3.89 15.672L6.255.461A.542.542 0 017.27.288l2.543 4.771zm16.794 3.692l-2.25-14a.54.54 0 00-.919-.295L3.316 19.365l7.856 4.427a1.621 1.621 0 001.588 0zM14.3 7.147l-1.82-3.482a.542.542 0 00-.96 0L3.53 17.984z"/></g>
+<text x="37" y="77" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9.5" fill="#A26C7A">Firebase</text>
+<style>@media(prefers-color-scheme:dark){text{fill:#C49BA6}}</style>
+</svg>

@@ -31,7 +31,7 @@ jobs:
         with:
           card: stats
           path: assets/stats.svg
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=false&count_private=false&bg_color=1C0808&title_color=E8B7A3&text_color=DBC9BF&icon_color=B96751&border_color=68302A&border_radius=10
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=false&count_private=false&bg_color=13060A&title_color=DFADB9&text_color=CEBFC5&icon_color=A3425A&border_color=542032&border_radius=10
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: 'true'
 
@@ -40,7 +40,7 @@ jobs:
         with:
           card: top-langs
           path: assets/languages.svg
-          options: username=${{ github.repository_owner }}&layout=compact&bg_color=1C0808&title_color=E8B7A3&text_color=DBC9BF&icon_color=B96751&border_color=68302A&border_radius=10
+          options: username=${{ github.repository_owner }}&layout=compact&bg_color=13060A&title_color=DFADB9&text_color=CEBFC5&icon_color=A3425A&border_color=542032&border_radius=10
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: 'true'
 
@@ -48,7 +48,7 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1
         with:
           path: assets/streak.svg
-          options: user=${{ github.repository_owner }}&background=1C0808&border=68302A&stroke=68302A&ring=982C25&fire=E8B7A3&currStreakNum=FFF5EB&sideNums=FFF5EB&currStreakLabel=E8B7A3&sideLabels=DBC9BF&dates=B78C78&border_radius=10
+          options: user=${{ github.repository_owner }}&background=13060A&border=542032&stroke=542032&ring=931838&fire=DFADB9&currStreakNum=F5E7EC&sideNums=F5E7EC&currStreakLabel=DFADB9&sideLabels=CEBFC5&dates=A47B8A&border_radius=10
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Keep long labels separated from values

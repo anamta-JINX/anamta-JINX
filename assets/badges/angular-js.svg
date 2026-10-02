@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="86" height="32" viewBox="0 0 86 32" role="img" aria-label="Angular.js">
-      <title>Angular.js</title>
-      <rect x=".5" y=".5" width="85" height="31" rx="6" fill="#240A0A" stroke="#69302B"/>
-      <g transform="translate(11 8) scale(.666667)" fill="#DCAD98"></g>
-      <text x="13" y="21" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#F4E8E1">Angular.js</text>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="84" viewBox="0 0 74 84" role="img" aria-label="Angular.js">
+<title>Angular.js</title>
+<defs><linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#29060F"/><stop offset="1" stop-color="#160309"/></linearGradient></defs>
+<rect x="7.5" y="1.5" width="59" height="59" rx="15" fill="url(#tile)" stroke="#602333" stroke-width=".75"/>
+<g transform="translate(21 15) scale(.25)"><path fill="#D8ADB5" d="M63.81 1.026L4.553 21.88l9.363 77.637 49.957 27.457 50.214-27.828 9.36-77.635z"/><path fill="#6D0B23" d="M117.536 25.998L63.672 7.629v112.785l45.141-24.983z"/><path fill="#A42643" d="M11.201 26.329l8.026 69.434 44.444 24.651V7.627z"/><path fill="#F5E7E8" d="M78.499 67.67l-14.827 6.934H48.044l-7.347 18.374-13.663.254 36.638-81.508L78.499 67.67zm-1.434-3.491L63.77 37.858 52.864 63.726h10.807l13.394.453z"/><path fill="#D8ADB5" d="M63.671 11.724l.098 26.134 12.375 25.888H63.698l-.027 10.841 17.209.017 8.042 18.63 13.074.242z"/></g>
+<text x="37" y="77" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9.5" fill="#A26C7A">Angular.js</text>
+<style>@media(prefers-color-scheme:dark){text{fill:#C49BA6}}</style>
+</svg>

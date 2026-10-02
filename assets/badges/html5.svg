@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="90" height="32" viewBox="0 0 90 32" role="img" aria-label="HTML5">
-      <title>HTML5</title>
-      <rect x=".5" y=".5" width="89" height="31" rx="6" fill="#240A0A" stroke="#69302B"/>
-      <g transform="translate(11 8) scale(.666667)" fill="#DCAD98"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></g>
-      <text x="35" y="21" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#F4E8E1">HTML5</text>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="84" viewBox="0 0 74 84" role="img" aria-label="HTML5">
+<title>HTML5</title>
+<defs><linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#29060F"/><stop offset="1" stop-color="#160309"/></linearGradient></defs>
+<rect x="7.5" y="1.5" width="59" height="59" rx="15" fill="url(#tile)" stroke="#602333" stroke-width=".75"/>
+<g transform="translate(21 15) scale(1.333333)" fill="#EAD7DC"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></g>
+<text x="37" y="77" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9.5" fill="#A26C7A">HTML5</text>
+<style>@media(prefers-color-scheme:dark){text{fill:#C49BA6}}</style>
+</svg>
