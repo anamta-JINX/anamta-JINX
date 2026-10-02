@@ -1,23 +1,31 @@
+<!--
+Anamta Gohar | anamta-JINX
+AI/ML Engineer · LLM/RAG Systems · Software Engineer · Full-Stack Developer
+Artificial Intelligence · Machine Learning · Deep Learning · Generative AI · Computer Vision · MERN
+Lahore, Pakistan
+Portfolio: https://anamtasportfolio.netlify.app/
+-->
+
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Anamta Gohar — AI/ML Engineer and Software Engineer" />
+  <img src="assets/header.svg" width="100%" alt="Anamta Gohar — AI/ML Engineer, LLM/RAG Engineer, Software Engineer and Full-Stack Developer" title="Anamta Gohar | anamta-JINX" />
 </p>
 
 <p align="center">
-  <a href="https://anamtasportfolio.netlify.app/"><b>Portfolio</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/anamta-JINX">GitHub</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:anamta.gohar25@gmail.com">Email</a>
+  <strong>Anamta Gohar</strong> · AI/ML Engineer · LLM/RAG Systems · Software Engineer · Full-Stack Developer
+  <br />
+  <sub>Lahore, Pakistan · @anamta-JINX</sub>
 </p>
 
 <p align="center">
-  <a href="https://pk.linkedin.com/in/anamta-gohar" title="LinkedIn"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="30" height="30" alt="LinkedIn" /></a>
+  <a href="https://anamtasportfolio.netlify.app/" title="Anamta Gohar Portfolio"><img src="assets/social/portfolio.svg" width="44" height="44" alt="Anamta Gohar Portfolio" /></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/anamta-JINX" title="GitHub"><img src="https://cdn.simpleicons.org/github/FFFFFF" width="30" height="30" alt="GitHub" /></a>
+  <a href="https://pk.linkedin.com/in/anamta-gohar" title="Anamta Gohar on LinkedIn"><img src="assets/social/linkedin.svg" width="44" height="44" alt="LinkedIn" /></a>
   &nbsp;&nbsp;
-  <a href="mailto:anamta.gohar25@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="30" height="30" alt="Gmail" /></a>
+  <a href="https://github.com/anamta-JINX" title="anamta-JINX on GitHub"><img src="assets/social/github.svg" width="44" height="44" alt="GitHub" /></a>
   &nbsp;&nbsp;
-  <a href="https://instagram.com/___anamtaaa" title="Instagram"><img src="https://cdn.simpleicons.org/instagram/E4405F" width="30" height="30" alt="Instagram" /></a>
+  <a href="mailto:anamta.gohar25@gmail.com" title="Email Anamta Gohar"><img src="assets/social/email.svg" width="44" height="44" alt="Email" /></a>
+  &nbsp;&nbsp;
+  <a href="https://instagram.com/___anamtaaa" title="Anamta Gohar on Instagram"><img src="assets/social/instagram.svg" width="44" height="44" alt="Instagram" /></a>
 </p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
