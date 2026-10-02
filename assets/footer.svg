@@ -1,21 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Maroon wave footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Animated maroon wave footer">
   <defs>
-    <linearGradient id="f" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2A0912"/>
-      <stop offset="55%" stop-color="#73172F"/>
-      <stop offset="100%" stop-color="#3A0B18"/>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3D0A18"/>
+      <stop offset="48%" stop-color="#8A203A"/>
+      <stop offset="100%" stop-color="#4B0D1D"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#78172E"/>
+      <stop offset="50%" stop-color="#B83D59"/>
+      <stop offset="100%" stop-color="#671328"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="150" rx="18" fill="#16080D"/>
-  <g fill="none" stroke-linecap="round">
-    <path d="M-90 84 C135 17 315 137 555 73 S933 35 1290 91" stroke="url(#f)" stroke-width="18" opacity=".95">
-      <animateTransform attributeName="transform" type="translate" values="0 0;36 0;0 0" dur="13s" repeatCount="indefinite"/>
-    </path>
-    <path d="M-80 101 C155 47 338 151 584 94 S955 52 1290 108" stroke="#C45A76" stroke-width="2" opacity=".42">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-28 0;0 0" dur="11s" repeatCount="indefinite"/>
-    </path>
-  </g>
-  <text x="600" y="48" text-anchor="middle" fill="#E8B8C4" font-family="'Courier New', monospace" font-size="13" letter-spacing="2">
+  <rect width="1200" height="190" fill="#100509"/>
+  <path d="M-120 35 C120 94 290 4 530 53 S920 104 1320 34 L1320 190 L-120 190 Z" fill="url(#w1)" opacity=".8">
+    <animateTransform attributeName="transform" type="translate" values="-28 0;26 4;-28 0" dur="12s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-120 62 C160 126 330 29 610 75 S995 122 1320 58 L1320 190 L-120 190 Z" fill="url(#w2)" opacity=".62">
+    <animateTransform attributeName="transform" type="translate" values="24 0;-24 -3;24 0" dur="10s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-100 95 C170 145 380 72 650 104 S1000 145 1300 93 L1300 190 L-100 190 Z" fill="#18070D" opacity=".9"/>
+  <text x="600" y="151" text-anchor="middle" fill="#D89AAD" font-family="'Courier New', monospace" font-size="13" letter-spacing="2">
     BUILD · BREAK · UNDERSTAND · SHIP BETTER
   </text>
 </svg>
