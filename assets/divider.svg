@@ -1,4 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="24" viewBox="0 0 960 24" role="img" aria-label="Animated maroon line">
-<defs><linearGradient id="base"><stop stop-color="#4E0000" stop-opacity="0"/><stop offset=".5" stop-color="#852039"/><stop offset="1" stop-color="#4E0000" stop-opacity="0"/></linearGradient><linearGradient id="light"><stop stop-color="#B7435A" stop-opacity="0"/><stop offset=".5" stop-color="#E8B8C0"/><stop offset="1" stop-color="#B7435A" stop-opacity="0"/></linearGradient><clipPath id="clip"><rect width="960" height="24"/></clipPath></defs>
-<style>.light{animation:glide 6s ease-in-out infinite}@keyframes glide{0%{transform:translateX(-180px);opacity:0}15%,85%{opacity:1}100%{transform:translateX(960px);opacity:0}}@media(prefers-reduced-motion:reduce){.light{animation:none;transform:translateX(390px)}}</style>
-<rect x="0" y="11.65" width="960" height=".7" fill="url(#base)"/><g clip-path="url(#clip)"><rect class="light" width="180" height="1" y="11.5" fill="url(#light)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="44" viewBox="0 0 1200 44" role="img" aria-label="Animated maroon signal lines">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#65152B" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#65152B" stop-opacity=".45"/>
+      <stop offset="50%" stop-color="#9B2945" stop-opacity=".9"/>
+      <stop offset="82%" stop-color="#65152B" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#65152B" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6F8F" stop-opacity="0"/>
+      <stop offset="48%" stop-color="#FF8DA7"/>
+      <stop offset="52%" stop-color="#FFF1F4"/>
+      <stop offset="100%" stop-color="#FF6F8F" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1200" height="44"/></clipPath>
+  </defs>
+
+  <g opacity=".9">
+    <rect x="0" y="10" width="1200" height="1" fill="url(#base)"/>
+    <rect x="0" y="22" width="1200" height="1.35" fill="url(#base)"/>
+    <rect x="0" y="34" width="1200" height="1" fill="url(#base)"/>
+  </g>
+
+  <g clip-path="url(#c)">
+    <g>
+      <rect x="-260" y="9.25" width="250" height="2.5" rx="1.25" fill="url(#pulse)"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;1460 0" dur="5.8s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="1210" y="20.9" width="310" height="3.1" rx="1.55" fill="url(#pulse)"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-1570 0" dur="7.2s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="-180" y="33.2" width="190" height="2.4" rx="1.2" fill="url(#pulse)"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;1400 0" dur="4.9s" begin="1.1s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
