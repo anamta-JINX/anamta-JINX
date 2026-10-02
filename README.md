@@ -7,25 +7,19 @@ Portfolio: https://anamtasportfolio.netlify.app/
 -->
 
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Anamta Gohar — AI/ML Engineer, LLM/RAG Engineer, Software Engineer and Full-Stack Developer" title="Anamta Gohar | anamta-JINX" />
+  <img src="assets/header.svg" width="100%" alt="Anamta Gohar — AI/ML Engineer, Software Engineer and Full-Stack Developer" title="Anamta Gohar | anamta-JINX" />
 </p>
 
 <p align="center">
-  <strong>Anamta Gohar</strong> · AI/ML Engineer · LLM/RAG Systems · Software Engineer · Full-Stack Developer
-  <br />
-  <sub>Lahore, Pakistan · @anamta-JINX</sub>
-</p>
-
-<p align="center">
-  <a href="https://anamtasportfolio.netlify.app/" title="Anamta Gohar Portfolio"><img src="assets/social/portfolio.svg" width="44" height="44" alt="Anamta Gohar Portfolio" /></a>
+  <a href="https://anamtasportfolio.netlify.app/" title="Portfolio"><img src="assets/social/portfolio.svg" width="42" height="42" alt="Portfolio" /></a>
   &nbsp;&nbsp;
-  <a href="https://pk.linkedin.com/in/anamta-gohar" title="Anamta Gohar on LinkedIn"><img src="assets/social/linkedin.svg" width="44" height="44" alt="LinkedIn" /></a>
+  <a href="https://pk.linkedin.com/in/anamta-gohar" title="LinkedIn"><img src="assets/social/linkedin.svg" width="42" height="42" alt="LinkedIn" /></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/anamta-JINX" title="anamta-JINX on GitHub"><img src="assets/social/github.svg" width="44" height="44" alt="GitHub" /></a>
+  <a href="https://github.com/anamta-JINX" title="GitHub"><img src="assets/social/github.svg" width="42" height="42" alt="GitHub" /></a>
   &nbsp;&nbsp;
-  <a href="mailto:anamta.gohar25@gmail.com" title="Email Anamta Gohar"><img src="assets/social/email.svg" width="44" height="44" alt="Email" /></a>
+  <a href="mailto:anamta.gohar25@gmail.com" title="Email"><img src="assets/social/email.svg" width="42" height="42" alt="Email" /></a>
   &nbsp;&nbsp;
-  <a href="https://instagram.com/___anamtaaa" title="Anamta Gohar on Instagram"><img src="assets/social/instagram.svg" width="44" height="44" alt="Instagram" /></a>
+  <a href="https://instagram.com/___anamtaaa" title="Instagram"><img src="assets/social/instagram.svg" width="42" height="42" alt="Instagram" /></a>
 </p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
@@ -60,22 +54,22 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
 
 <p align="center"><sub><b>AI / ML DOMAINS</b></sub></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/AI-6F1730?style=flat-square&labelColor=16080D" alt="Artificial Intelligence" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-7F1C36?style=flat-square&labelColor=16080D" alt="Machine Learning" />
-  <img src="https://img.shields.io/badge/Deep%20Learning-8D2240?style=flat-square&labelColor=16080D" alt="Deep Learning" />
-  <img src="https://img.shields.io/badge/LLMs-A62E4D?style=flat-square&labelColor=16080D" alt="LLMs" />
-  <img src="https://img.shields.io/badge/RAG-B53B59?style=flat-square&labelColor=16080D" alt="RAG" />
-  <img src="https://img.shields.io/badge/Generative%20AI-94304A?style=flat-square&labelColor=16080D" alt="Generative AI" />
-  <img src="https://img.shields.io/badge/Transformers-7A1830?style=flat-square&labelColor=16080D" alt="Transformers" />
-  <img src="https://img.shields.io/badge/Embeddings-8D2943?style=flat-square&labelColor=16080D" alt="Embeddings" />
-  <img src="https://img.shields.io/badge/AI%20Agents-A73855?style=flat-square&labelColor=16080D" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/NLP-74162D?style=flat-square&labelColor=16080D" alt="NLP" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-8A203A?style=flat-square&labelColor=16080D" alt="Computer Vision" />
-  <img src="https://img.shields.io/badge/CNNs-A12D4A?style=flat-square&labelColor=16080D" alt="CNNs" />
-  <img src="https://img.shields.io/badge/DNNs-7F1D35?style=flat-square&labelColor=16080D" alt="DNNs" />
-  <img src="https://img.shields.io/badge/OCR-96304B?style=flat-square&labelColor=16080D" alt="OCR" />
-  <img src="https://img.shields.io/badge/Vector%20Search-B23B58?style=flat-square&labelColor=16080D" alt="Vector Search" />
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-792037?style=flat-square&labelColor=16080D" alt="Prompt Engineering" />
+  <img src="https://img.shields.io/badge/AI-74162D?style=flat-square&labelColor=0C0407" alt="Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-74162D?style=flat-square&labelColor=0C0407" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/Deep%20Learning-74162D?style=flat-square&labelColor=0C0407" alt="Deep Learning" />
+  <img src="https://img.shields.io/badge/LLMs-74162D?style=flat-square&labelColor=0C0407" alt="LLMs" />
+  <img src="https://img.shields.io/badge/RAG-74162D?style=flat-square&labelColor=0C0407" alt="RAG" />
+  <img src="https://img.shields.io/badge/Generative%20AI-74162D?style=flat-square&labelColor=0C0407" alt="Generative AI" />
+  <img src="https://img.shields.io/badge/Transformers-74162D?style=flat-square&labelColor=0C0407" alt="Transformers" />
+  <img src="https://img.shields.io/badge/Embeddings-74162D?style=flat-square&labelColor=0C0407" alt="Embeddings" />
+  <img src="https://img.shields.io/badge/AI%20Agents-74162D?style=flat-square&labelColor=0C0407" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/NLP-74162D?style=flat-square&labelColor=0C0407" alt="NLP" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-74162D?style=flat-square&labelColor=0C0407" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/CNNs-74162D?style=flat-square&labelColor=0C0407" alt="CNNs" />
+  <img src="https://img.shields.io/badge/DNNs-74162D?style=flat-square&labelColor=0C0407" alt="DNNs" />
+  <img src="https://img.shields.io/badge/OCR-74162D?style=flat-square&labelColor=0C0407" alt="OCR" />
+  <img src="https://img.shields.io/badge/Vector%20Search-74162D?style=flat-square&labelColor=0C0407" alt="Vector Search" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-74162D?style=flat-square&labelColor=0C0407" alt="Prompt Engineering" />
 </p>
 
 <p align="center"><sub><b>AI / ML &amp; DATA</b></sub></p>
