@@ -1,34 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
   <title id="title">Anamta Gohar</title>
-  <desc id="desc">Software Engineer | AI/ML Engineer | Full-Stack Developer. An animated maroon wave banner.</desc>
+  <desc id="desc">Centered dimensional ivory lettering over deep Red Inferno maroon, with three continuously moving waves.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#200b13"/><stop offset=".55" stop-color="#55152b"/><stop offset="1" stop-color="#8b2342"/>
-    </linearGradient>
-    <linearGradient id="wave" x1="0" x2="1"><stop stop-color="#9c3655"/><stop offset="1" stop-color="#eaa1b2"/></linearGradient>
-    <linearGradient id="rule"><stop stop-color="#efabb9"/><stop offset="1" stop-color="#efabb9" stop-opacity="0"/></linearGradient>
-    <clipPath id="frame"><rect width="960" height="280" rx="12"/></clipPath>
+    <linearGradient id="maroon" x2="1" y2="1"><stop stop-color="#210000"/><stop offset=".48" stop-color="#4E0000"/><stop offset="1" stop-color="#260000"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#A21A1D" stop-opacity=".27"/><stop offset="1" stop-color="#4E0000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ivory" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".5" stop-color="#FFF5EB"/><stop offset="1" stop-color="#D9B5A2"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#AD433D" stop-opacity=".15"/><stop offset=".5" stop-color="#E3A591" stop-opacity=".55"/><stop offset="1" stop-color="#AD433D" stop-opacity=".15"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-40%" width="140%" height="200%"><feDropShadow dx="0" dy="12" stdDeviation="8" flood-color="#090000" flood-opacity=".8"/></filter>
+    <clipPath id="frame"><rect width="960" height="300" rx="16"/></clipPath>
   </defs>
-  <style>
-    .wave-back { animation: tide 12s ease-in-out infinite alternate; }
-    .wave-front { animation: tide 9s ease-in-out infinite alternate-reverse; }
-    @keyframes tide { from { transform: translateX(-30px); } to { transform: translateX(30px); } }
-    @media (prefers-reduced-motion: reduce) { .wave-back, .wave-front { animation: none; } }
-  </style>
+  <style>.wave-back{animation:flow 22s linear infinite}.wave-mid{animation:flow 16s linear infinite reverse}.wave-front{animation:flow 12s linear infinite}
+    @keyframes flow{from{transform:translateX(0)}to{transform:translateX(-960px)}}
+    @media(prefers-reduced-motion:reduce){.wave-back,.wave-mid,.wave-front{animation:none}}</style>
   <g clip-path="url(#frame)">
-    <rect width="960" height="280" fill="url(#background)"/>
-    <g fill="none" stroke="#e7a1b2" stroke-opacity=".09">
-      <circle cx="895" cy="35" r="105"/><circle cx="895" cy="35" r="143"/><circle cx="895" cy="35" r="181"/>
-      <path d="M728 0v186M766 0v186M804 0v186M842 0v186M880 0v186M918 0v186M690 35h270M690 73h270M690 111h270M690 149h270" stroke-opacity=".045"/>
+    <rect width="960" height="300" fill="url(#maroon)"/>
+    <ellipse cx="480" cy="95" rx="480" ry="230" fill="url(#glow)"/>
+    <path d="M32 35H190M770 35H928" stroke="url(#edge)"/>
+    <g text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="82" font-weight="700" letter-spacing="-3">
+      <text x="484" y="152" fill="#140000" filter="url(#shadow)">Anamta Gohar</text>
+      <text x="483" y="149" fill="#5E1914">Anamta Gohar</text>
+      <text x="482" y="147" fill="#8B4234">Anamta Gohar</text>
+      <text x="481" y="145" fill="#B77960">Anamta Gohar</text>
+      <text x="480" y="143" fill="url(#ivory)">Anamta Gohar</text>
     </g>
-    <rect x="58" y="45" width="32" height="3" rx="1.5" fill="#efabb9"/>
-    <text x="102" y="51" fill="#e4a0b1" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="2.8">anamta-JINX</text>
-    <text x="54" y="134" fill="#fff5f7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="64" font-weight="700" letter-spacing="-2.6">Anamta Gohar</text>
-    <text x="58" y="171" fill="#edcbd4" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="19" letter-spacing=".15">Software Engineer | AI/ML Engineer | Full-Stack Developer</text>
-    <rect x="58" y="198" width="350" height="1" fill="url(#rule)"/>
-    <path class="wave-back" d="M-80 245C110 175 250 284 450 237S730 166 1040 218V300H-80Z" fill="#bf5473" opacity=".23"/>
-    <path class="wave-front" d="M-80 259C140 191 315 301 527 254S780 188 1040 239V300H-80Z" fill="url(#wave)" opacity=".33"/>
-    <path d="M-80 278C180 225 375 309 606 270S818 241 1040 259V300H-80Z" fill="#e6a3b5" opacity=".15"/>
-    <rect x=".5" y=".5" width="959" height="279" rx="11.5" fill="none" stroke="#b05c75" stroke-opacity=".3"/>
+    <path d="M378 180H463M497 180H582" stroke="url(#edge)"/>
+    <path d="M480 176L484 180L480 184L476 180Z" fill="#D9A48C" opacity=".75"/>
+    <path class="wave-back" d="M-960 250C-800 192 -640 192 -480 250S-160 308 0 250C160 192 320 192 480 250S800 308 960 250C1120 192 1280 192 1440 250S1760 308 1920 250C2080 192 2240 192 2400 250S2720 308 2880 250V380H-960Z" fill="#7E1014" opacity=".7"/>
+    <path class="wave-mid" d="M-960 269C-800 225 -640 225 -480 269S-160 313 0 269C160 225 320 225 480 269S800 313 960 269C1120 225 1280 225 1440 269S1760 313 1920 269C2080 225 2240 225 2400 269S2720 313 2880 269V380H-960Z" fill="#AF3536" opacity=".37"/>
+    <path class="wave-front" d="M-960 286C-800 256 -640 256 -480 286S-160 316 0 286C160 256 320 256 480 286S800 316 960 286C1120 256 1280 256 1440 286S1760 316 1920 286C2080 256 2240 256 2400 286S2720 316 2880 286V380H-960Z" fill="#D57C69" opacity=".22"/>
+    <rect x=".5" y=".5" width="959" height="299" rx="15.5" fill="none" stroke="#AD433D" stroke-opacity=".38"/>
   </g>
 </svg>

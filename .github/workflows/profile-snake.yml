@@ -32,8 +32,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/github-snake.svg?color_snake=#801d3c&color_dots=#f4e9ed,#e9c5d0,#c57990,#9c3655,#60162f
-            assets/github-snake-dark.svg?palette=github-dark&color_snake=#efabbf&color_dots=#21101a,#43182b,#712840,#a34765,#d7819b
+            assets/github-snake.svg?color_snake=#65080B&color_dots=#F4E8E1,#E7C8B8,#C8836D,#982C25,#4E0000
+            assets/github-snake-dark.svg?palette=github-dark&color_snake=#F0C5AC&color_dots=#240A0A,#4E0000,#74141A,#A63D34,#D8846B
 
       - name: Check both SVG files
         run: |

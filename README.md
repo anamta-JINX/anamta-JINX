@@ -1,7 +1,16 @@
-<!-- Profile artwork is stored in this repository; the original text is preserved. -->
+<!-- Repository-hosted artwork. About Me wording preserved. -->
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Anamta Gohar — Software Engineer | AI/ML Engineer | Full-Stack Developer" />
-  <img src="assets/typing.svg" width="760" alt="Software Engineer | AI/ML Engineer | Full-Stack Developer" />
+  <img src="assets/header.svg" width="100%" alt="Anamta Gohar" />
+  <img src="assets/typing.svg" width="760" alt="AI/ML Engineer | Software Engineer | Full-Stack Developer | Frontend Developer" />
+</p>
+
+<p align="center">
+  <a href="https://anamtasportfolio.netlify.app/"><img src="assets/social/portfolio.svg" height="40" alt="Portfolio" /></a>
+  <a href="https://pk.linkedin.com/in/anamta-gohar"><img src="assets/social/linkedin.svg" height="40" alt="LinkedIn" /></a>
+  <a href="mailto:anamta.gohar25@gmail.com"><img src="assets/social/email.svg" height="40" alt="Email" /></a>
+  <a href="https://instagram.com/___anamtaaa"><img src="assets/social/instagram.svg" height="40" alt="Instagram" /></a>
+  <a href="https://github.com/anamta-JINX"><img src="assets/social/github.svg" height="40" alt="GitHub" /></a>
+  <img src="assets/social/discord.svg" height="40" alt="Discord: __anamta" title="Discord: __anamta" />
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="" />
@@ -32,30 +41,92 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## 💻 Tech Stack:
+## Tech Stack
+
+**AI / ML & Data**
 
 <p>
-  <img src="assets/badges/css3.svg" alt="CSS3" height="28" /> <img src="assets/badges/html5.svg" alt="HTML5" height="28" /> <img src="assets/badges/python.svg" alt="Python" height="28" /> <img src="assets/badges/php.svg" alt="PHP" height="28" /> <img src="assets/badges/javascript.svg" alt="JavaScript" height="28" /> <img src="assets/badges/typescript.svg" alt="TypeScript" height="28" /> <img src="assets/badges/google-cloud.svg" alt="Google Cloud" height="28" /> <img src="assets/badges/aws.svg" alt="AWS" height="28" /> <img src="assets/badges/azure.svg" alt="Azure" height="28" /> <img src="assets/badges/cloudflare.svg" alt="Cloudflare" height="28" /> <img src="assets/badges/netlify.svg" alt="Netlify" height="28" /> <img src="assets/badges/firebase.svg" alt="Firebase" height="28" /> <img src="assets/badges/angular-js.svg" alt="Angular.js" height="28" /> <img src="assets/badges/bootstrap.svg" alt="Bootstrap" height="28" /> <img src="assets/badges/django.svg" alt="Django" height="28" /> <img src="assets/badges/flutter.svg" alt="Flutter" height="28" /> <img src="assets/badges/express-js.svg" alt="Express.js" height="28" /> <img src="assets/badges/fastapi.svg" alt="FastAPI" height="28" /> <img src="assets/badges/flask.svg" alt="Flask" height="28" /> <img src="assets/badges/react.svg" alt="React" height="28" /> <img src="assets/badges/sass.svg" alt="SASS" height="28" /> <img src="assets/badges/tailwindcss.svg" alt="TailwindCSS" height="28" /> <img src="assets/badges/streamlit.svg" alt="Streamlit" height="28" /> <img src="assets/badges/vite.svg" alt="Vite" height="28" /> <img src="assets/badges/vue-js.svg" alt="Vue.js" height="28" /> <img src="assets/badges/firebase.svg" alt="Firebase" height="28" /> <img src="assets/badges/supabase.svg" alt="Supabase" height="28" /> <img src="assets/badges/figma.svg" alt="Figma" height="28" /> <img src="assets/badges/keras.svg" alt="Keras" height="28" /> <img src="assets/badges/matplotlib.svg" alt="Matplotlib" height="28" /> <img src="assets/badges/numpy.svg" alt="NumPy" height="28" /> <img src="assets/badges/pandas.svg" alt="Pandas" height="28" /> <img src="assets/badges/pytorch.svg" alt="PyTorch" height="28" /> <img src="assets/badges/scikit-learn.svg" alt="scikit-learn" height="28" /> <img src="assets/badges/tensorflow.svg" alt="TensorFlow" height="28" /> <img src="assets/badges/git.svg" alt="Git" height="28" /> <img src="assets/badges/github.svg" alt="GitHub" height="28" /> <img src="assets/badges/cisco.svg" alt="Cisco" height="28" /> <img src="assets/badges/docker.svg" alt="Docker" height="28" /> <img src="assets/badges/postman.svg" alt="Postman" height="28" /> <img src="assets/badges/firebase.svg" alt="Firebase" height="28" /> <img src="assets/badges/gitlab.svg" alt="GitLab" height="28" />
+  <img src="assets/badges/pytorch.svg" height="32" alt="PyTorch" />
+  <img src="assets/badges/tensorflow.svg" height="32" alt="TensorFlow" />
+  <img src="assets/badges/keras.svg" height="32" alt="Keras" />
+  <img src="assets/badges/scikit-learn.svg" height="32" alt="scikit-learn" />
+  <img src="assets/badges/numpy.svg" height="32" alt="NumPy" />
+  <img src="assets/badges/pandas.svg" height="32" alt="Pandas" />
+  <img src="assets/badges/matplotlib.svg" height="32" alt="Matplotlib" />
+</p>
+
+**Languages**
+
+<p>
+  <img src="assets/badges/python.svg" height="32" alt="Python" />
+  <img src="assets/badges/typescript.svg" height="32" alt="TypeScript" />
+  <img src="assets/badges/javascript.svg" height="32" alt="JavaScript" />
+  <img src="assets/badges/php.svg" height="32" alt="PHP" />
+  <img src="assets/badges/html5.svg" height="32" alt="HTML5" />
+  <img src="assets/badges/css3.svg" height="32" alt="CSS3" />
+</p>
+
+**Frontend & Mobile**
+
+<p>
+  <img src="assets/badges/react.svg" height="32" alt="React" />
+  <img src="assets/badges/vue-js.svg" height="32" alt="Vue.js" />
+  <img src="assets/badges/angular-js.svg" height="32" alt="Angular.js" />
+  <img src="assets/badges/flutter.svg" height="32" alt="Flutter" />
+  <img src="assets/badges/tailwindcss.svg" height="32" alt="TailwindCSS" />
+  <img src="assets/badges/sass.svg" height="32" alt="SASS" />
+  <img src="assets/badges/bootstrap.svg" height="32" alt="Bootstrap" />
+  <img src="assets/badges/vite.svg" height="32" alt="Vite" />
+</p>
+
+**Backend & Apps**
+
+<p>
+  <img src="assets/badges/fastapi.svg" height="32" alt="FastAPI" />
+  <img src="assets/badges/django.svg" height="32" alt="Django" />
+  <img src="assets/badges/flask.svg" height="32" alt="Flask" />
+  <img src="assets/badges/express-js.svg" height="32" alt="Express.js" />
+  <img src="assets/badges/streamlit.svg" height="32" alt="Streamlit" />
+</p>
+
+**Cloud & Platforms**
+
+<p>
+  <img src="assets/badges/aws.svg" height="32" alt="AWS" />
+  <img src="assets/badges/google-cloud.svg" height="32" alt="Google Cloud" />
+  <img src="assets/badges/azure.svg" height="32" alt="Azure" />
+  <img src="assets/badges/cloudflare.svg" height="32" alt="Cloudflare" />
+  <img src="assets/badges/netlify.svg" height="32" alt="Netlify" />
+  <img src="assets/badges/firebase.svg" height="32" alt="Firebase" />
+  <img src="assets/badges/supabase.svg" height="32" alt="Supabase" />
+</p>
+
+**Tools & Workflow**
+
+<p>
+  <img src="assets/badges/git.svg" height="32" alt="Git" />
+  <img src="assets/badges/github.svg" height="32" alt="GitHub" />
+  <img src="assets/badges/gitlab.svg" height="32" alt="GitLab" />
+  <img src="assets/badges/docker.svg" height="32" alt="Docker" />
+  <img src="assets/badges/postman.svg" height="32" alt="Postman" />
+  <img src="assets/badges/figma.svg" height="32" alt="Figma" />
+  <img src="assets/badges/cisco.svg" height="32" alt="Cisco" />
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
 ## Find Me Online
 
-[![Portfolio](assets/social/portfolio.svg)](https://anamtasportfolio.netlify.app/)
-[![LinkedIn](assets/social/linkedin.svg)](https://pk.linkedin.com/in/anamta-gohar)
-[![GitHub](assets/social/github.svg)](https://github.com/anamta-JINX)
-[![Email](assets/social/email.svg)](mailto:anamta.gohar25@gmail.com)
-[![Instagram](assets/social/instagram.svg)](https://instagram.com/___anamtaaa)
-![Discord](assets/social/discord.svg)
-
 **Portfolio:** [anamtasportfolio.netlify.app](https://anamtasportfolio.netlify.app/)  
 **LinkedIn:** [linkedin.com/in/anamta-gohar](https://pk.linkedin.com/in/anamta-gohar)  
-**GitHub:** [github.com/anamta-JINX](https://github.com/anamta-JINX)
+**GitHub:** [github.com/anamta-JINX](https://github.com/anamta-JINX)  
+**Email:** [anamta.gohar25@gmail.com](mailto:anamta.gohar25@gmail.com)  
+**Instagram:** [___anamtaaa](https://instagram.com/___anamtaaa)  
+**Discord:** `__anamta`
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## 📊 GitHub Stats:
+## GitHub Stats
 
 <p align="center">
   <img height="175" src="assets/stats.svg" alt="Anamta's GitHub stats" />
@@ -100,7 +171,7 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
 <br />
 
 <p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=anamta-JINX&amp;limit=5&amp;theme=dark&amp;combine_all_yearly_contributions=true&amp;bg_color=190d14&amp;title_color=e6a0b4&amp;text_color=d8c7cf&amp;icon_color=bc5876&amp;border_color=57283b&amp;border_radius=10" alt="Anamta's top contributed repositories" />
+  <img src="https://github-contributor-stats.vercel.app/api?username=anamta-JINX&amp;limit=5&amp;theme=dark&amp;combine_all_yearly_contributions=true&amp;bg_color=1C0808&amp;title_color=E8B7A3&amp;text_color=DBC9BF&amp;icon_color=B96751&amp;border_color=68302A&amp;border_radius=10" alt="Anamta's top contributed repositories" />
 </p>
 
 </details>

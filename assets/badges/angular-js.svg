@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="80" height="28" viewBox="0 0 80 28" role="img" aria-label="Angular.js">
-  <title>Angular.js</title>
-  <rect x=".5" y=".5" width="79" height="27" rx="4" fill="#321421" stroke="#6c3348"/>
-  <g transform="translate(10 7) scale(.583333)" fill="#e3a3b7"></g>
-  <text x="12" y="18" fill="#fff0f4" font-family="DejaVu Sans,Arial,sans-serif" font-size="11">Angular.js</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="32" viewBox="0 0 86 32" role="img" aria-label="Angular.js">
+      <title>Angular.js</title>
+      <rect x=".5" y=".5" width="85" height="31" rx="6" fill="#240A0A" stroke="#69302B"/>
+      <g transform="translate(11 8) scale(.666667)" fill="#DCAD98"></g>
+      <text x="13" y="21" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#F4E8E1">Angular.js</text>
+    </svg>

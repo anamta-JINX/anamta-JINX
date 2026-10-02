@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="20" viewBox="0 0 960 20" role="img" aria-label="Animated maroon divider">
   <defs>
-    <linearGradient id="base"><stop stop-color="#722039" stop-opacity=".08"/><stop offset=".5" stop-color="#a74763" stop-opacity=".6"/><stop offset="1" stop-color="#722039" stop-opacity=".08"/></linearGradient>
-    <linearGradient id="light"><stop stop-color="#a74763" stop-opacity="0"/><stop offset=".5" stop-color="#e996ae"/><stop offset="1" stop-color="#a74763" stop-opacity="0"/></linearGradient>
+    <linearGradient id="base"><stop stop-color="#4E0000" stop-opacity=".08"/><stop offset=".5" stop-color="#9B302A" stop-opacity=".6"/><stop offset="1" stop-color="#4E0000" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="light"><stop stop-color="#9B302A" stop-opacity="0"/><stop offset=".5" stop-color="#E7B29A"/><stop offset="1" stop-color="#9B302A" stop-opacity="0"/></linearGradient>
     <clipPath id="clip"><rect y="9" width="960" height="2" rx="1"/></clipPath>
   </defs>
   <style>

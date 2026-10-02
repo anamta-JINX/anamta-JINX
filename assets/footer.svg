@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="112" viewBox="0 0 960 112" role="img" aria-label="Maroon wave footer">
-  <defs><linearGradient id="wine" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#761d39"/><stop offset="1" stop-color="#270e18"/></linearGradient><clipPath id="clip"><rect width="960" height="112" rx="10"/></clipPath></defs>
-  <style>.wave {animation:drift 11s ease-in-out infinite alternate}@keyframes drift{from{transform:translateX(-25px)}to{transform:translateX(25px)}}@media(prefers-reduced-motion:reduce){.wave{animation:none}}</style>
-  <g clip-path="url(#clip)">
-    <path class="wave" d="M-60 49C157 6 281 93 483 41S758 10 1020 38V120H-60Z" fill="#cc6d88" opacity=".25"/>
-    <path class="wave" d="M-60 71C167 10 300 109 510 57S786 37 1020 53V120H-60Z" fill="#9c3655" opacity=".7"/>
-    <path d="M-60 81C143 44 338 121 550 77S825 70 1020 76V120H-60Z" fill="url(#wine)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="120" viewBox="0 0 960 120" role="img" aria-label="Continuously moving maroon footer waves">
+  <defs><linearGradient id="maroon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#680609"/><stop offset=".5" stop-color="#4E0000"/><stop offset="1" stop-color="#210000"/></linearGradient><clipPath id="frame"><rect width="960" height="120" rx="12"/></clipPath></defs>
+  <style>.wave-back{animation:flow 22s linear infinite}.wave-mid{animation:flow 16s linear infinite reverse}.wave-front{animation:flow 12s linear infinite}
+    @keyframes flow{from{transform:translateX(0)}to{transform:translateX(-960px)}}
+    @media(prefers-reduced-motion:reduce){.wave-back,.wave-mid,.wave-front{animation:none}}</style>
+  <g clip-path="url(#frame)">
+    <path class="wave-back" d="M-960 57C-800 15 -640 15 -480 57S-160 99 0 57C160 15 320 15 480 57S800 99 960 57C1120 15 1280 15 1440 57S1760 99 1920 57C2080 15 2240 15 2400 57S2720 99 2880 57V380H-960Z" fill="#A43B36" opacity=".4"/>
+    <path class="wave-mid" d="M-960 78C-800 38 -640 38 -480 78S-160 118 0 78C160 38 320 38 480 78S800 118 960 78C1120 38 1280 38 1440 78S1760 118 1920 78C2080 38 2240 38 2400 78S2720 118 2880 78V380H-960Z" fill="#801115" opacity=".75"/>
+    <path class="wave-front" d="M-960 97C-800 69 -640 69 -480 97S-160 125 0 97C160 69 320 69 480 97S800 125 960 97C1120 69 1280 69 1440 97S1760 125 1920 97C2080 69 2240 69 2400 97S2720 125 2880 97V380H-960Z" fill="url(#maroon)"/>
   </g>
 </svg>
