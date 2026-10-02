@@ -1,58 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
   <title id="title">Anamta Gohar — AI/ML Engineer and Software Engineer</title>
-  <desc id="desc">Minimal black-cherry maroon profile banner with subtle animated waves.</desc>
+  <desc id="desc">Black cherry maroon banner with layered animated waves.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#16080D"/>
-      <stop offset="48%" stop-color="#3A0B18"/>
-      <stop offset="100%" stop-color="#73172F"/>
+      <stop offset="0%" stop-color="#100509"/>
+      <stop offset="45%" stop-color="#330A16"/>
+      <stop offset="100%" stop-color="#65152B"/>
     </linearGradient>
-    <radialGradient id="glow" cx="74%" cy="18%" r="62%">
-      <stop offset="0%" stop-color="#C45A76" stop-opacity=".34"/>
-      <stop offset="100%" stop-color="#C45A76" stop-opacity="0"/>
+    <radialGradient id="glow" cx="78%" cy="14%" r="68%">
+      <stop offset="0%" stop-color="#B84963" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#B84963" stop-opacity="0"/>
     </radialGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5"/>
-      <feOffset dx="4" dy="5" result="o"/>
-      <feColorMatrix in="o" type="matrix" values="0 0 0 0 0.08 0 0 0 0 0.01 0 0 0 0 0.03 0 0 0 .9 0"/>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4A0D1D"/>
+      <stop offset="48%" stop-color="#8A203A"/>
+      <stop offset="100%" stop-color="#5C1125"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7A1830"/>
+      <stop offset="52%" stop-color="#B33A56"/>
+      <stop offset="100%" stop-color="#6E152B"/>
+    </linearGradient>
+    <filter id="depth" x="-20%" y="-20%" width="140%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.8"/>
+      <feOffset dx="5" dy="6" result="shadow"/>
+      <feColorMatrix in="shadow" type="matrix" values="0 0 0 0 .05 0 0 0 0 .005 0 0 0 0 .015 0 0 0 .95 0"/>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="22" fill="url(#glow)"/>
+  <rect width="1200" height="410" fill="url(#bg)"/>
+  <rect width="1200" height="410" fill="url(#glow)"/>
 
-  <g fill="none" stroke="#E7A8B7" stroke-width="1.3" opacity=".16">
-    <path d="M-80 64 C190 10 315 125 540 62 S885 7 1280 78">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-34 8;0 0" dur="12s" repeatCount="indefinite"/>
-    </path>
-    <path d="M-90 302 C178 236 340 347 580 286 S946 230 1290 300">
-      <animateTransform attributeName="transform" type="translate" values="0 0;44 -7;0 0" dur="14s" repeatCount="indefinite"/>
-    </path>
+  <g opacity=".16" stroke="#EFC0CB" stroke-width="1" fill="none">
+    <path d="M0 70 H1200"/><path d="M0 88 H1200"/><path d="M0 106 H1200"/>
   </g>
 
-  <g opacity=".45" fill="#EFC5CE">
-    <circle cx="105" cy="108" r="3"/>
-    <circle cx="1070" cy="118" r="2"/>
-    <circle cx="1125" cy="250" r="3"/>
-    <circle cx="178" cy="268" r="2"/>
-  </g>
-
-  <text x="600" y="88" text-anchor="middle" fill="#DFA0B0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="5">
+  <text x="600" y="92" text-anchor="middle" fill="#D98FA3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="5.2">
     AI / ML · SOFTWARE · SYSTEMS
   </text>
 
-  <text x="600" y="190" text-anchor="middle" fill="#FFF7F8" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="700" letter-spacing="-1.5" filter="url(#softShadow)">
+  <text x="600" y="193" text-anchor="middle" fill="#FFF7F9" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-weight="700" letter-spacing="-1.7" filter="url(#depth)">
     Anamta Gohar
   </text>
 
-  <line x1="470" y1="218" x2="730" y2="218" stroke="#C65A76" stroke-width="2" stroke-linecap="round"/>
-
-  <text x="600" y="259" text-anchor="middle" fill="#F1D9DF" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="1.3">
-    AI/ML Engineer · Software Engineer
+  <text x="600" y="241" text-anchor="middle" fill="#F0D3DB" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="1.4">
+    AI/ML Engineer · Software Engineer · Full-Stack Developer
+  </text>
+  <text x="600" y="273" text-anchor="middle" fill="#C78396" font-family="'Courier New', monospace" font-size="13" letter-spacing="1.2">
+    curious enough to open the black box.
   </text>
 
-  <text x="600" y="295" text-anchor="middle" fill="#C98A9A" font-family="'Courier New', monospace" font-size="13" letter-spacing="1.1">
-    systems first. aesthetics included.
-  </text>
+  <path d="M-100 336 C120 286 270 390 500 334 S850 281 1300 344 L1300 410 L-100 410 Z" fill="url(#wave1)" opacity=".92">
+    <animateTransform attributeName="transform" type="translate" values="-30 0;25 -5;-30 0" dur="12s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-120 360 C135 307 330 405 595 354 S980 308 1320 366 L1320 410 L-120 410 Z" fill="url(#wave2)" opacity=".72">
+    <animateTransform attributeName="transform" type="translate" values="25 0;-22 4;25 0" dur="10s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-100 381 C140 342 320 411 610 376 S990 344 1300 388 L1300 410 L-100 410 Z" fill="#18070D" opacity=".9">
+    <animateTransform attributeName="transform" type="translate" values="-16 0;18 -2;-16 0" dur="15s" repeatCount="indefinite"/>
+  </path>
 </svg>
