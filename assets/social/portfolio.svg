@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="Portfolio">
-<title>Portfolio</title><rect x=".5" y=".5" width="47" height="47" rx="15" fill="#310711" stroke="#792237" stroke-width=".8"/>
-<g transform="translate(13 13) scale(.916667)" fill="none" stroke="#EDCFD7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M4.8 6.5h14.4M4.8 17.5h14.4"/></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="Anamta Gohar Portfolio">
+<title>Anamta Gohar Portfolio</title><rect x=".75" y=".75" width="46.5" height="46.5" rx="14" fill="#19070D" stroke="#7A1C36" stroke-width="1.5"/>
+<rect x="11" y="13" width="26" height="22" rx="4" fill="none" stroke="#F0C5D0" stroke-width="1.8"/><path d="M11 18h26" stroke="#8E2944" stroke-width="1.5"/>
+<circle cx="15" cy="15.6" r="1" fill="#D45673"/><circle cx="18" cy="15.6" r="1" fill="#9F2946"/>
+<path d="M18 24l-4 3 4 3M30 24l4 3-4 3M26.5 22l-5 10" fill="none" stroke="#F0C5D0" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
