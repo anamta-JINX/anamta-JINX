@@ -1,25 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Animated maroon wave footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="360" viewBox="0 0 1500 360" role="img" aria-label="Anamta Gohar dark maroon footer">
   <defs>
-    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3D0A18"/>
-      <stop offset="48%" stop-color="#8A203A"/>
-      <stop offset="100%" stop-color="#4B0D1D"/>
-    </linearGradient>
-    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#78172E"/>
-      <stop offset="50%" stop-color="#B83D59"/>
-      <stop offset="100%" stop-color="#671328"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050102"/><stop offset=".55" stop-color="#0C0407"/><stop offset="1" stop-color="#16060B"/></linearGradient>
+    <linearGradient id="type" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#7F192F"/><stop offset="1" stop-color="#5D1024"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
   </defs>
-  <rect width="1200" height="190" fill="#100509"/>
-  <path d="M-120 35 C120 94 290 4 530 53 S920 104 1320 34 L1320 190 L-120 190 Z" fill="url(#w1)" opacity=".8">
-    <animateTransform attributeName="transform" type="translate" values="-28 0;26 4;-28 0" dur="12s" repeatCount="indefinite"/>
-  </path>
-  <path d="M-120 62 C160 126 330 29 610 75 S995 122 1320 58 L1320 190 L-120 190 Z" fill="url(#w2)" opacity=".62">
-    <animateTransform attributeName="transform" type="translate" values="24 0;-24 -3;24 0" dur="10s" repeatCount="indefinite"/>
-  </path>
-  <path d="M-100 95 C170 145 380 72 650 104 S1000 145 1300 93 L1300 190 L-100 190 Z" fill="#18070D" opacity=".9"/>
-  <text x="600" y="151" text-anchor="middle" fill="#D89AAD" font-family="'Courier New', monospace" font-size="13" letter-spacing="2">
-    BUILD · BREAK · UNDERSTAND · SHIP BETTER
-  </text>
+  <rect width="1500" height="360" fill="url(#bg)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M-100 50 C150 172 300 -20 505 84 S835 194 1020 91 1315 30 1600 150" stroke="#74162D" stroke-width="50" opacity=".72" filter="url(#soft)"/>
+    <path d="M-110 291 C160 170 345 390 570 278 S925 183 1115 278 1375 376 1600 250" stroke="#74162D" stroke-width="54" opacity=".72" filter="url(#soft)"/>
+    <path d="M-80 82 C130 195 305 24 500 119" stroke="#3B0915" stroke-width="21"/>
+    <path d="M990 264 C1175 174 1340 329 1575 230" stroke="#3B0915" stroke-width="21"/>
+  </g>
+  <ellipse cx="750" cy="185" rx="440" ry="110" fill="#070203" opacity=".9"/>
+  <text x="750" y="192" text-anchor="middle" fill="url(#type)" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="92" letter-spacing="3">ANAMTA GOHAR</text>
+  <text x="750" y="235" text-anchor="middle" fill="#A92A46" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3">AI/ML ENGINEER · SOFTWARE ENGINEER · FULL-STACK DEVELOPER</text>
 </svg>
