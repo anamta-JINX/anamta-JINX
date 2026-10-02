@@ -1,63 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
-  <title id="title">Anamta Gohar — AI/ML Engineer and Software Engineer</title>
-  <desc id="desc">Black cherry maroon banner with layered animated waves.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Anamta Gohar — AI/ML Engineer, LLM/RAG Engineer and Software Engineer</title>
+  <desc id="desc">Personal GitHub profile banner for Anamta Gohar, anamta-JINX. Black cherry maroon design with terminal, neural-network, Rubik's cube and chess motifs.</desc>
+  <metadata>
+    Creator: Anamta Gohar (anamta-JINX)
+    Location: Lahore, Pakistan
+    Roles: AI/ML Engineer; Software Engineer; Full-Stack Developer
+    Keywords: artificial intelligence, machine learning, deep learning, LLM, RAG, generative AI, computer vision, CNN, MERN, Python, React, backend systems
+    Portfolio: https://anamtasportfolio.netlify.app/
+  </metadata>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#100509"/>
-      <stop offset="45%" stop-color="#330A16"/>
-      <stop offset="100%" stop-color="#65152B"/>
+      <stop offset="0%" stop-color="#0C0407"/>
+      <stop offset="46%" stop-color="#240711"/>
+      <stop offset="100%" stop-color="#5B1026"/>
     </linearGradient>
-    <radialGradient id="glow" cx="78%" cy="14%" r="68%">
-      <stop offset="0%" stop-color="#B84963" stop-opacity=".34"/>
-      <stop offset="100%" stop-color="#B84963" stop-opacity="0"/>
+    <radialGradient id="glow" cx="72%" cy="28%" r="58%">
+      <stop offset="0%" stop-color="#A72F4F" stop-opacity=".32"/>
+      <stop offset="100%" stop-color="#A72F4F" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4A0D1D"/>
-      <stop offset="48%" stop-color="#8A203A"/>
-      <stop offset="100%" stop-color="#5C1125"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7A1832"/>
+      <stop offset="48%" stop-color="#D05473"/>
+      <stop offset="100%" stop-color="#7A1832"/>
     </linearGradient>
-    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7A1830"/>
-      <stop offset="52%" stop-color="#B33A56"/>
-      <stop offset="100%" stop-color="#6E152B"/>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3D0A18"/>
+      <stop offset="50%" stop-color="#85203D"/>
+      <stop offset="100%" stop-color="#4D0D20"/>
     </linearGradient>
-    <filter id="depth" x="-20%" y="-20%" width="140%" height="150%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2.8"/>
-      <feOffset dx="5" dy="6" result="shadow"/>
-      <feColorMatrix in="shadow" type="matrix" values="0 0 0 0 .05 0 0 0 0 .005 0 0 0 0 .015 0 0 0 .95 0"/>
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#761830"/>
+      <stop offset="50%" stop-color="#B63A58"/>
+      <stop offset="100%" stop-color="#67152A"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#E8B8C5" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="5" dy="7" result="s"/>
+      <feColorMatrix in="s" type="matrix" values="0 0 0 0 .03 0 0 0 0 0 0 0 0 0 .01 0 0 0 .95 0"/>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect width="1200" height="410" fill="url(#bg)"/>
-  <rect width="1200" height="410" fill="url(#glow)"/>
+  <rect width="1200" height="430" fill="url(#bg)"/>
+  <rect width="1200" height="430" fill="url(#grid)"/>
+  <rect width="1200" height="430" fill="url(#glow)"/>
 
-  <g opacity=".16" stroke="#EFC0CB" stroke-width="1" fill="none">
-    <path d="M0 70 H1200"/><path d="M0 88 H1200"/><path d="M0 106 H1200"/>
+  <!-- terminal identity -->
+  <g transform="translate(54 52)">
+    <rect width="292" height="106" rx="16" fill="#12060B" stroke="#6F1A32" stroke-width="1"/>
+    <circle cx="22" cy="21" r="4" fill="#B23855"/><circle cx="37" cy="21" r="4" fill="#7D2038"/><circle cx="52" cy="21" r="4" fill="#541328"/>
+    <text x="22" y="53" fill="#E7AFC0" font-family="'Courier New', monospace" font-size="13">anamta@jinx:~$</text>
+    <text x="22" y="76" fill="#FFF4F7" font-family="'Courier New', monospace" font-size="13">build --from-scratch</text>
+    <text x="22" y="95" fill="#9F5269" font-family="'Courier New', monospace" font-size="11">curiosity: always_on</text>
   </g>
 
-  <text x="600" y="92" text-anchor="middle" fill="#D98FA3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="5.2">
-    AI / ML · SOFTWARE · SYSTEMS
-  </text>
+  <!-- neural network -->
+  <g transform="translate(930 42)" stroke="#B84764" stroke-width="1.2" opacity=".8">
+    <path d="M15 35L78 10L145 48L214 20M15 35L64 85L145 48L198 100M64 85L128 122L198 100M78 10L128 122" fill="none"/>
+    <g fill="#F0C2CE" stroke="#7E1E39" stroke-width="2">
+      <circle cx="15" cy="35" r="5"/><circle cx="78" cy="10" r="5"/><circle cx="145" cy="48" r="6"/>
+      <circle cx="214" cy="20" r="4"/><circle cx="64" cy="85" r="5"/><circle cx="128" cy="122" r="5"/><circle cx="198" cy="100" r="5"/>
+    </g>
+    <circle cx="145" cy="48" r="13" fill="none" stroke="#D9607D" opacity=".42">
+      <animate attributeName="r" values="8;16;8" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".7;.05;.7" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-  <text x="600" y="193" text-anchor="middle" fill="#FFF7F9" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-weight="700" letter-spacing="-1.7" filter="url(#depth)">
-    Anamta Gohar
-  </text>
+  <!-- cube + chess easter eggs -->
+  <g transform="translate(82 215)" opacity=".72">
+    <text x="0" y="0" fill="#B96A80" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2">OFF-SCREEN</text>
+    <g transform="translate(0 20)" fill="none" stroke="#B63E5C" stroke-width="1.4">
+      <rect width="54" height="54" rx="6"/><path d="M18 0V54M36 0V54M0 18H54M0 36H54"/>
+      <rect x="19" y="19" width="16" height="16" fill="#8E2944" stroke="none"/>
+    </g>
+    <text x="74" y="58" fill="#E3A9B8" font-family="Georgia, serif" font-size="43">♞</text>
+    <text x="122" y="53" fill="#A45A70" font-family="'Courier New', monospace" font-size="11">20s cube</text>
+  </g>
 
-  <text x="600" y="241" text-anchor="middle" fill="#F0D3DB" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="1.4">
-    AI/ML Engineer · Software Engineer · Full-Stack Developer
-  </text>
-  <text x="600" y="273" text-anchor="middle" fill="#C78396" font-family="'Courier New', monospace" font-size="13" letter-spacing="1.2">
-    curious enough to open the black box.
-  </text>
+  <!-- main editorial lockup -->
+  <g transform="translate(600 132)" text-anchor="middle">
+    <text y="0" fill="#A85A70" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="5.5">AI / ML · LLM / RAG · SOFTWARE</text>
+    <text y="82" fill="#FFF7F9" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="75" font-weight="900" letter-spacing="-3" filter="url(#shadow)">ANAMTA</text>
+    <text y="133" fill="none" stroke="#E4A6B6" stroke-width="1.3" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="46" font-weight="900" letter-spacing="9">GOHAR</text>
+    <rect x="-195" y="155" width="390" height="2" rx="1" fill="url(#accent)"/>
+    <text y="190" fill="#EBCDD5" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.4">AI/ML Engineer · Software Engineer · Full-Stack Developer</text>
+    <text y="217" fill="#A75B70" font-family="'Courier New', monospace" font-size="12" letter-spacing="1">I like knowing what the black box is doing.</text>
+  </g>
 
-  <path d="M-100 336 C120 286 270 390 500 334 S850 281 1300 344 L1300 410 L-100 410 Z" fill="url(#wave1)" opacity=".92">
-    <animateTransform attributeName="transform" type="translate" values="-30 0;25 -5;-30 0" dur="12s" repeatCount="indefinite"/>
+  <!-- tiny side annotation -->
+  <g transform="translate(1010 223)">
+    <text fill="#9F5269" font-family="'Courier New', monospace" font-size="11">01. BUILD</text>
+    <text y="20" fill="#9F5269" font-family="'Courier New', monospace" font-size="11">02. BREAK</text>
+    <text y="40" fill="#E4A6B6" font-family="'Courier New', monospace" font-size="11">03. UNDERSTAND</text>
+    <text y="60" fill="#9F5269" font-family="'Courier New', monospace" font-size="11">04. SHIP</text>
+  </g>
+
+  <!-- animated bottom waves -->
+  <path d="M-120 360 C115 305 292 408 535 350 S923 305 1320 367 L1320 430 L-120 430 Z" fill="url(#waveA)" opacity=".9">
+    <animateTransform attributeName="transform" type="translate" values="-26 0;26 -4;-26 0" dur="12s" repeatCount="indefinite"/>
   </path>
-  <path d="M-120 360 C135 307 330 405 595 354 S980 308 1320 366 L1320 410 L-120 410 Z" fill="url(#wave2)" opacity=".72">
-    <animateTransform attributeName="transform" type="translate" values="25 0;-22 4;25 0" dur="10s" repeatCount="indefinite"/>
+  <path d="M-120 385 C155 329 355 427 625 376 S1000 336 1320 391 L1320 430 L-120 430 Z" fill="url(#waveB)" opacity=".68">
+    <animateTransform attributeName="transform" type="translate" values="24 0;-24 4;24 0" dur="10s" repeatCount="indefinite"/>
   </path>
-  <path d="M-100 381 C140 342 320 411 610 376 S990 344 1300 388 L1300 410 L-100 410 Z" fill="#18070D" opacity=".9">
-    <animateTransform attributeName="transform" type="translate" values="-16 0;18 -2;-16 0" dur="15s" repeatCount="indefinite"/>
-  </path>
+  <path d="M-100 406 C155 368 348 438 642 400 S1020 371 1300 410 L1300 430 L-100 430 Z" fill="#13060B" opacity=".92"/>
 </svg>
