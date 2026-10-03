@@ -205,10 +205,12 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
-    <img width="92%" src="assets/github-snake.svg" alt="Animated contribution snake for Anamta Gohar" />
+    <img width="100%" src="assets/github-snake.svg" alt="Animated snake following Anamta's GitHub contributions" />
   </picture>
 </p>
 
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+ 
 <p align="center">
   <img src="assets/Footer.png" width="100%" alt="" />
 </p>
