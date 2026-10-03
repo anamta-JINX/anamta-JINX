@@ -11,6 +11,10 @@ Portfolio: https://anamtasportfolio.netlify.app/
 </p>
 
 <p align="center">
+  <img src="assets/typing.svg" width="760" alt="AI/ML Engineer · Software Engineer · Full-Stack Developer · Frontend Developer" />
+</p>
+
+<p align="center">
   <a href="https://anamtasportfolio.netlify.app/" title="Portfolio"><img src="assets/social/portfolio.svg" width="42" height="42" alt="Portfolio" /></a>
   &nbsp;&nbsp;
   <a href="https://pk.linkedin.com/in/anamta-gohar" title="LinkedIn"><img src="assets/social/linkedin.svg" width="42" height="42" alt="LinkedIn" /></a>
