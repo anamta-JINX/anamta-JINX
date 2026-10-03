@@ -209,6 +209,8 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
   </picture>
 </p>
 
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+ 
 <p align="center">
   <img src="assets/Footer.png" width="100%" alt="" />
 </p>
