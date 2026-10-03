@@ -21,54 +21,48 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
       - name: Check out the profile
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           ref: main
 
-      - name: Generate contribution snake
+      - name: Generate the contribution snake
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/github-snake.svg?color_snake=#B21F35&color_dots=#F7F2F4,#E8D5DA,#D29AA6,#B21F35,#7F1326
-            assets/github-snake-dark.svg?palette=github-dark&color_snake=#B21F35&color_dots=#0C0407,#2E0B14,#581021,#86192F,#B21F35
+            assets/github-snake.svg?color_snake=#B21F35&color_dots=#F4E8ED,#E7C7CE,#D18494,#B21F35,#7F1326
+            assets/github-snake-dark.svg?palette=github-dark&color_snake=#B21F35&color_dots=#0C0407,#321018,#5D1024,#8F1B34,#B21F35
 
-      - name: Apply professional profile styling
+      - name: Add progressive snake growth and polish
         run: |
           python3 - <<'PY'
           from pathlib import Path
           import re
 
-          def refine(path: Path, dark: bool):
+          def polish(path: Path, dark: bool):
               svg = path.read_text(encoding='utf-8')
-
-              match = re.search(
-                  r'animation:none\s+(\d+)ms\s+linear\s+infinite',
-                  svg
-              )
-              if not match:
-                  raise RuntimeError(f'Could not detect snake timing in {path}')
-
-              duration = int(match.group(1))
+              m = re.search(r'animation:none\s+(\d+)ms\s+linear\s+infinite', svg)
+              if not m:
+                  raise RuntimeError(f'Could not detect animation duration in {path}')
+              duration = int(m.group(1))
 
               root = (
-                  ':root{--cb:#221017;--cs:#B21F35;--ce:#0C0407;'
-                  '--c0:#0C0407;--c1:#2E0B14;--c2:#581021;'
-                  '--c3:#86192F;--c4:#B21F35}'
+                  ':root{--cb:#1b1f230a;--cs:#B21F35;--sh:#C4273F;'
+                  '--ce:#0C0407;--c0:#0C0407;--c1:#321018;--c2:#5D1024;'
+                  '--c3:#8F1B34;--c4:#B21F35}'
                   if dark else
-                  ':root{--cb:#2A11180f;--cs:#B21F35;--ce:#F7F2F4;'
-                  '--c0:#F7F2F4;--c1:#E8D5DA;--c2:#D29AA6;'
+                  ':root{--cb:#1b1f230a;--cs:#B21F35;--sh:#C4273F;'
+                  '--ce:#F4E8ED;--c0:#F4E8ED;--c1:#E7C7CE;--c2:#D18494;'
                   '--c3:#B21F35;--c4:#7F1326}'
               )
               svg = re.sub(r':root\{[^}]+\}', root, svg, count=1)
 
-              # Remove the generated bottom progress strip.
+              # Remove the generated horizontal bar beneath the contribution grid.
               svg = re.sub(r'<rect class="u u\d+"[^>]*/>', '', svg)
 
-              # Keep the artwork compact once the strip is removed.
+              # Tighten the canvas after removing the bottom bar.
               svg = svg.replace(
                   'viewBox="-16 -32 880 192"',
                   'viewBox="-16 -32 880 160"'
@@ -77,89 +71,61 @@ jobs:
                   'width="880" height="160"'
               )
 
-              # Use a clean, restrained four-piece base snake.
-              replacements = {
-                  's0': '<rect class="s s0" x="2.15" y="2.15" width="11.7" height="11.7" rx="3.1" ry="3.1"/>',
-                  's1': '<rect class="s s1" x="2.35" y="2.35" width="11.3" height="11.3" rx="3.0" ry="3.0"/>',
-                  's2': '<rect class="s s2" x="2.55" y="2.55" width="10.9" height="10.9" rx="2.9" ry="2.9"/>',
-                  's3': '<rect class="s s3" x="2.75" y="2.75" width="10.5" height="10.5" rx="2.8" ry="2.8"/>',
-              }
-              for cls, replacement in replacements.items():
-                  svg = re.sub(
-                      rf'<rect class="s {cls}"[^>]*/>',
-                      replacement,
-                      svg,
-                      count=1
-                  )
-
-              # The snake still grows, but only from 4 to 7 segments.
-              thresholds = [30, 55, 76]
-              fills = ['#8F1B34', '#82172D', '#741326']
-
+              thresholds = [12, 20, 28, 36, 46, 56, 66, 76]
               css = '''
-          /* Refined Anamta-JINX snake: restrained crimson + subtle growth */
-          .s.s0{fill:#B21F35!important}
-          .s.s1{fill:#A71930!important}
-          .s.s2{fill:#9D182C!important}
-          .s.s3{fill:#95192F!important}
+          /* Custom Anamta-JINX snake: banner-matched crimson + progressive growth */
+          .s.s0{fill:var(--sh)!important;filter:drop-shadow(0 0 3px #C4273F)}
+          .s.s1{fill:#B21F35!important}
+          .s.s2{fill:#A71930!important}
+          .s.s3{fill:#9D182C!important}
           '''
-
               for j, threshold in enumerate(thresholds):
                   cls = 4 + j
-                  lag = 500 + (j * 120)
-                  delay = -(duration - lag)
-                  opacity = 0.92 - (j * 0.08)
-
+                  trail_ms = 400 + (j * 100)
+                  delay = -(duration - trail_ms)
+                  opacity = 0.96 - (j * 0.045)
+                  fill = '#9D182C' if j < 3 else ('#8F1B34' if j < 6 else '#7F1326')
                   css += f'''
-          @keyframes proGrow{cls}{{
-            0%,{threshold - 0.1:.1f}%{{opacity:0}}
-            {threshold}%,99.7%{{opacity:{opacity:.2f}}}
-            99.8%,100%{{opacity:0}}
-          }}
+          @keyframes grow{cls}{{0%,{threshold-0.1:.1f}%{{opacity:0}}{threshold}%,99.8%{{opacity:{opacity:.2f}}}99.9%,100%{{opacity:0}}}}
           .s.s{cls}{{
-            fill:{fills[j]}!important;
-            animation-name:s0,proGrow{cls};
+            fill:{fill}!important;
+            animation-name:s0,grow{cls};
             animation-duration:{duration}ms,{duration}ms;
             animation-timing-function:linear,step-end;
             animation-iteration-count:infinite,infinite;
             animation-delay:{delay}ms,0ms;
           }}
           '''
-
               svg = svg.replace('</style>', css + '</style>', 1)
 
-              sizes = [10.1, 9.8, 9.5]
+              sizes = [9.6, 9.4, 9.2, 9.0, 8.8, 8.6, 8.4, 8.2]
               extra = ''
-
               for j, size in enumerate(sizes):
                   cls = 4 + j
-                  xy = 8 - (size / 2)
-                  radius = size / 3.7
+                  xy = 8 - size / 2
+                  radius = size / 3
                   extra += (
-                      f'<rect class="s s{cls}" '
-                      f'x="{xy:.2f}" y="{xy:.2f}" '
-                      f'width="{size}" height="{size}" '
-                      f'rx="{radius:.2f}" ry="{radius:.2f}"/>'
+                      f'<rect class="s s{cls}" x="{xy:.2f}" y="{xy:.2f}" '
+                      f'width="{size}" height="{size}" rx="{radius:.2f}" ry="{radius:.2f}"/>'
                   )
 
               svg = svg.replace('</svg>', extra + '</svg>', 1)
               path.write_text(svg, encoding='utf-8')
 
-          refine(Path('assets/github-snake.svg'), False)
-          refine(Path('assets/github-snake-dark.svg'), True)
+          polish(Path('assets/github-snake.svg'), False)
+          polish(Path('assets/github-snake-dark.svg'), True)
           PY
 
-      - name: Check generated SVG files
+      - name: Check both SVG files
         run: |
           python3 - <<'PY'
           from pathlib import Path
           from xml.etree import ElementTree
-
           for name in ('github-snake.svg', 'github-snake-dark.svg'):
               path = Path('assets') / name
               root = ElementTree.parse(path).getroot()
-              assert root.tag == '{http://www.w3.org/2000/svg}svg'
-              assert path.stat().st_size > 1000
+              assert root.tag == '{http://www.w3.org/2000/svg}svg', path
+              assert path.stat().st_size > 1000, path
           PY
 
       - name: Save refreshed animations
@@ -167,12 +133,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/github-snake.svg assets/github-snake-dark.svg
-
           if git diff --cached --quiet; then
             echo "Contribution animations are already current."
             exit 0
           fi
-
-          git commit -m "chore: refresh branded contribution snake"
+          git commit -m "chore: refresh maroon contribution snake"
           git pull --rebase origin main
           git push origin HEAD:main
