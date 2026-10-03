@@ -7,7 +7,7 @@ Portfolio: https://anamtasportfolio.netlify.app/
 -->
 
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Anamta Gohar — AI/ML Engineer, Software Engineer and Full-Stack Developer" title="Anamta Gohar | anamta-JINX" />
+  <img src="assets/Header.png" width="100%" alt="Anamta Gohar — AI/ML Engineer, Software Engineer and Full-Stack Developer" title="Anamta Gohar | anamta-JINX" />
 </p>
 
 <p align="center">
@@ -208,5 +208,5 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <p align="center">
-  <img src="assets/footer.svg" width="100%" alt="" />
+  <img src="assets/Footer.png" width="100%" alt="" />
 </p>
