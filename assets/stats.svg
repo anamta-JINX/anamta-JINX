@@ -8,12 +8,12 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Anamta Gohar&#39;s GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 307, Total PRs: 3, Total Issues: 0, Contributed to (last year): 2</desc>
+        <title id="titleId">Anamta Gohar&#39;s GitHub Stats, Rank: C+</title>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 354, Total PRs: 3, Total Issues: 0, Contributed to (last year): 2</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #9B2340;
+            fill: #DFADB9;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #CBBBC0;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #CEBFC5;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #CBBBC0;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #CEBFC5;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #74162D;
+      fill: #A3425A;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #9B2340;
+      stroke: #DFADB9;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #9B2340;
+      stroke: #DFADB9;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 221.27165725960145;
+        stroke-dashoffset: 219.08682798805654;
       }
     }
   
@@ -116,9 +116,9 @@
           y="0.5"
           rx="10"
           height="99%"
-          stroke="#3B0915"
+          stroke="#542032"
           width="466"
-          fill="#0C0407"
+          fill="#13060A"
           stroke-opacity="1"
         />
 
@@ -150,7 +150,7 @@
         <g class="rank-text">
           
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          C
+          C+
         </text>
       
         </g>
@@ -184,7 +184,7 @@
         x="265"
         y="12.5"
         data-testid="commits"
-      >307</text>
+      >354</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
