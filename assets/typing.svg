@@ -30,7 +30,7 @@
       .caret5{animation:cursor5 5s steps(24,end) infinite,blink .7s step-end infinite}
       @keyframes reveal5{0%,5%{width:0}32%,82%{width:346px}98%,100%{width:0}}
       @keyframes cursor5{0%,5%{transform:translateX(0)}32%,82%{transform:translateX(351px)}98%,100%{transform:translateX(0)}}
-    @media(prefers-color-scheme:dark){text,.caret{fill:#D8A2AD}}
+    @media(prefers-color-scheme:dark){text{fill:#F5F5F5}.caret{fill:#D7D7D7}}
     @media(prefers-reduced-motion:reduce){*{animation:none!important}.line{opacity:0}.line1{opacity:1}.caret{opacity:0}.reveal1{width:202px}}
   </style>
   <g class="line line1" transform="translate(279.0 5)"><g clip-path="url(#clip1)"><text y="32" textLength="202" lengthAdjust="spacingAndGlyphs">AI/ML Engineer</text></g><rect class="caret caret1" y="10" width="2" height="26"/></g><g class="line line2" transform="translate(257.5 5)"><g clip-path="url(#clip2)"><text y="32" textLength="245" lengthAdjust="spacingAndGlyphs">Software Engineer</text></g><rect class="caret caret2" y="10" width="2" height="26"/></g><g class="line line3" transform="translate(236.0 5)"><g clip-path="url(#clip3)"><text y="32" textLength="288" lengthAdjust="spacingAndGlyphs">Full-Stack Developer</text></g><rect class="caret caret3" y="10" width="2" height="26"/></g><g class="line line4" transform="translate(250.5 5)"><g clip-path="url(#clip4)"><text y="32" textLength="259" lengthAdjust="spacingAndGlyphs">Frontend Developer</text></g><rect class="caret caret4" y="10" width="2" height="26"/></g><g class="line line5" transform="translate(207.0 5)"><g clip-path="url(#clip5)"><text y="32" textLength="346" lengthAdjust="spacingAndGlyphs">Still debugging at 3 AM.</text></g><rect class="caret caret5" y="10" width="2" height="26"/></g>
