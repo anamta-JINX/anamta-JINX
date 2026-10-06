@@ -58,22 +58,22 @@ Outside of tech, I’m a chess player and basketball team captain—mostly as a 
 
 <p align="center"><sub><b>AI / ML DOMAINS</b></sub></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/AI-74162D?style=flat-square&labelColor=0C0407" alt="Artificial Intelligence" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-74162D?style=flat-square&labelColor=0C0407" alt="Machine Learning" />
-  <img src="https://img.shields.io/badge/Deep%20Learning-74162D?style=flat-square&labelColor=0C0407" alt="Deep Learning" />
-  <img src="https://img.shields.io/badge/LLMs-74162D?style=flat-square&labelColor=0C0407" alt="LLMs" />
-  <img src="https://img.shields.io/badge/RAG-74162D?style=flat-square&labelColor=0C0407" alt="RAG" />
-  <img src="https://img.shields.io/badge/Generative%20AI-74162D?style=flat-square&labelColor=0C0407" alt="Generative AI" />
-  <img src="https://img.shields.io/badge/Transformers-74162D?style=flat-square&labelColor=0C0407" alt="Transformers" />
-  <img src="https://img.shields.io/badge/Embeddings-74162D?style=flat-square&labelColor=0C0407" alt="Embeddings" />
-  <img src="https://img.shields.io/badge/AI%20Agents-74162D?style=flat-square&labelColor=0C0407" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/NLP-74162D?style=flat-square&labelColor=0C0407" alt="NLP" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-74162D?style=flat-square&labelColor=0C0407" alt="Computer Vision" />
-  <img src="https://img.shields.io/badge/CNNs-74162D?style=flat-square&labelColor=0C0407" alt="CNNs" />
-  <img src="https://img.shields.io/badge/DNNs-74162D?style=flat-square&labelColor=0C0407" alt="DNNs" />
-  <img src="https://img.shields.io/badge/OCR-74162D?style=flat-square&labelColor=0C0407" alt="OCR" />
-  <img src="https://img.shields.io/badge/Vector%20Search-74162D?style=flat-square&labelColor=0C0407" alt="Vector Search" />
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-74162D?style=flat-square&labelColor=0C0407" alt="Prompt Engineering" />
+  <img src="https://img.shields.io/badge/AI-111111?style=flat-square&labelColor=000000" alt="Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-111111?style=flat-square&labelColor=000000" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/Deep%20Learning-111111?style=flat-square&labelColor=000000" alt="Deep Learning" />
+  <img src="https://img.shields.io/badge/LLMs-111111?style=flat-square&labelColor=000000" alt="LLMs" />
+  <img src="https://img.shields.io/badge/RAG-111111?style=flat-square&labelColor=000000" alt="RAG" />
+  <img src="https://img.shields.io/badge/Generative%20AI-111111?style=flat-square&labelColor=000000" alt="Generative AI" />
+  <img src="https://img.shields.io/badge/Transformers-111111?style=flat-square&labelColor=000000" alt="Transformers" />
+  <img src="https://img.shields.io/badge/Embeddings-111111?style=flat-square&labelColor=000000" alt="Embeddings" />
+  <img src="https://img.shields.io/badge/AI%20Agents-111111?style=flat-square&labelColor=000000" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/NLP-111111?style=flat-square&labelColor=000000" alt="NLP" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-111111?style=flat-square&labelColor=000000" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/CNNs-111111?style=flat-square&labelColor=000000" alt="CNNs" />
+  <img src="https://img.shields.io/badge/DNNs-111111?style=flat-square&labelColor=000000" alt="DNNs" />
+  <img src="https://img.shields.io/badge/OCR-111111?style=flat-square&labelColor=000000" alt="OCR" />
+  <img src="https://img.shields.io/badge/Vector%20Search-111111?style=flat-square&labelColor=000000" alt="Vector Search" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-111111?style=flat-square&labelColor=000000" alt="Prompt Engineering" />
 </p>
 
 <p align="center"><sub><b>AI / ML &amp; DATA</b></sub></p>
