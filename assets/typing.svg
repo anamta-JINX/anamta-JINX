@@ -2,7 +2,7 @@
   <title id="title">AI/ML Engineer | Software Engineer | Full-Stack Developer | Frontend Developer | Still debugging at 3 AM.</title>
   <defs><clipPath id="clip1"><rect class="reveal1" width="202" height="48"/></clipPath><clipPath id="clip2"><rect class="reveal2" width="245" height="48"/></clipPath><clipPath id="clip3"><rect class="reveal3" width="288" height="48"/></clipPath><clipPath id="clip4"><rect class="reveal4" width="259" height="48"/></clipPath><clipPath id="clip5"><rect class="reveal5" width="346" height="48"/></clipPath></defs>
   <style>
-    text{font-family:Consolas,'Liberation Mono',monospace;font-size:22px;font-weight:400;fill:#740D26}.caret{fill:#940C31}
+    text{font-family:Consolas,'Liberation Mono',monospace;font-size:22px;font-weight:400;fill:#111111}.caret{fill:#5A5A5A}@media (prefers-color-scheme:dark){text{fill:#F5F5F5}.caret{fill:#D7D7D7}}
     @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
     .line1{opacity:1;animation:show1 25s step-end infinite}
       @keyframes show1{0%{opacity:1}0%{opacity:1}20%,100%{opacity:0}}
