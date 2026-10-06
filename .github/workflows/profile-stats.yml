@@ -1,4 +1,4 @@
-name: Refresh maroon profile stats
+name: Refresh monochrome profile stats
 
 on:
   schedule:
@@ -31,7 +31,7 @@ jobs:
         with:
           card: stats
           path: assets/stats.svg
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=false&count_private=false&bg_color=13060A&title_color=DFADB9&text_color=CEBFC5&icon_color=A3425A&border_color=542032&border_radius=10
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=false&count_private=false&bg_color=050505&title_color=FFFFFF&text_color=D0D0D0&icon_color=AFAFAF&border_color=4A4A4A&border_radius=10
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: 'true'
 
@@ -40,7 +40,7 @@ jobs:
         with:
           card: top-langs
           path: assets/languages.svg
-          options: username=${{ github.repository_owner }}&layout=compact&bg_color=13060A&title_color=DFADB9&text_color=CEBFC5&icon_color=A3425A&border_color=542032&border_radius=10
+          options: username=${{ github.repository_owner }}&layout=compact&bg_color=050505&title_color=FFFFFF&text_color=D0D0D0&icon_color=AFAFAF&border_color=4A4A4A&border_radius=10
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: 'true'
 
@@ -48,7 +48,7 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1
         with:
           path: assets/streak.svg
-          options: user=${{ github.repository_owner }}&background=13060A&border=542032&stroke=542032&ring=931838&fire=DFADB9&currStreakNum=F5E7EC&sideNums=F5E7EC&currStreakLabel=DFADB9&sideLabels=CEBFC5&dates=A47B8A&border_radius=10
+          options: user=${{ github.repository_owner }}&background=050505&border=4A4A4A&stroke=4A4A4A&ring=F5F5F5&fire=E6E6E6&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E6E6E6&sideLabels=D0D0D0&dates=8E8E8E&border_radius=10
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Keep long labels separated from values
@@ -87,6 +87,6 @@ jobs:
             echo "Stats cards are already current."
             exit 0
           fi
-          git commit -m "chore: refresh maroon profile stats"
+          git commit -m "chore: refresh monochrome profile stats"
           git pull --rebase origin main
           git push origin HEAD:main
